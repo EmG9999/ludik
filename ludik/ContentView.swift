@@ -13,8 +13,9 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Text("Quiz des lettres")
+        
             .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+
     
         }
         
