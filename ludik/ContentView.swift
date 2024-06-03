@@ -12,8 +12,17 @@ struct ContentView: View {
     
     
     var body: some View {
-       Text("je veux jouer a palworldddd")
-        
+        VStack{
+            Text("je veux jouer a palworld")
+                .bold()
+                
+            
+         
+            
+            
+            
+            
+        }
     }
 }
 
