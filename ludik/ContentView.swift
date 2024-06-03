@@ -9,14 +9,20 @@ import SwiftUI
 import SwiftData
 
 struct ContentView: View {
-    
-    
     var body: some View {
-       Text("je veux jouer a palworldddd")
+        
+        
+        HStack{
+            Text("hhh")
+                .font(.system(size: 36))
+                .bold()
+            
+        }
+            
+        
         
     }
-}
-
+    }
 #Preview {
     ContentView()
         .modelContainer(for: Item.self, inMemory: true)
