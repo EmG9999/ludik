@@ -12,7 +12,11 @@ struct ContentView: View {
     
     
     var body: some View {
-       Text("je veux jouer a palworldddd")
+        VStack {
+            Text("Quiz des lettres")
+            .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+    
+        }
         
     }
 }
