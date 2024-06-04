@@ -9,10 +9,14 @@ import SwiftUI
 import SwiftData
 
 extension Color{
+    // Couleurs Gradiant boutons de sélection de la bonne réponse
     static let buttonChoiceOrange = Color(red: 236/255, green: 144/255, blue: 5/255)
     static let buttonChoiceRed = Color(red: 228/255, green: 75/255, blue: 84/255)
-
-
+    // Couleurs Gradiant boutons "commeneer"
+    static let buttonOrange2
+    = Color(red: 255/255, green: 171/255, blue: 0/255)
+    static let buttonOrange3
+    = Color(red: 153/255, green: 103/255, blue: 0/255)
 }
     
 
@@ -30,7 +34,10 @@ struct ContentView: View {
                     VStack {
                         Text("Mots: 1/20")
                         Text("Score:10")
-                    }
+                    }.padding(.leading, 40)
+
+                    Spacer()
+                    
                     VStack {
                         Text("0:00")
                         Button {
@@ -39,7 +46,7 @@ struct ContentView: View {
                             Text("II")
                                 .foregroundStyle(.black)
                         }
-                    }
+                    } .padding(.trailing, 40)
                 }
                 .font(.custom("Ranchers-Regular", size: 25))
                 Image("Hippopotamus")
@@ -52,10 +59,24 @@ struct ContentView: View {
                 VStack {
                     Text("Hipopotame")
                         .frame(width: 267,height: 74)
+                        .background(LinearGradient(
+                                colors: [.buttonChoiceOrange, .buttonChoiceRed],
+                                startPoint: .leading,
+                                endPoint: .trailing))
+                        .overlay(
+                                RoundedRectangle(cornerRadius: 20)
+                                    .stroke(.black, lineWidth: 2))
                         .background(.orange)
                         .cornerRadius(20)
                     Text("Hippopotame")
                         .frame(width: 267,height: 74)
+                        .background(LinearGradient(
+                                colors: [.buttonChoiceOrange, .buttonChoiceRed],
+                                startPoint: .leading,
+                                endPoint: .trailing))
+                        .overlay(
+                                RoundedRectangle(cornerRadius: 20)
+                                    .stroke(.black, lineWidth: 2))
                         .background(.orange)
                         .cornerRadius(20)
                     Text("Ippopotame")
@@ -64,9 +85,10 @@ struct ContentView: View {
                                 colors: [.buttonChoiceOrange, .buttonChoiceRed],
                                 startPoint: .leading,
                                 endPoint: .trailing))
+                        .overlay(
+                                RoundedRectangle(cornerRadius: 20)
+                                    .stroke(.black, lineWidth: 2))
                         .cornerRadius(20)
-                        
-                        
                 }
                 // Boutton "Commencer"
                 .font(.custom("Ranchers-Regular", size: 40))
@@ -76,14 +98,14 @@ struct ContentView: View {
                 
                 Text("Commencer")
                     .frame(width: 327,height: 48)
-                    .background(.orange)
+                    .background(LinearGradient(
+                            colors: [.buttonOrange2, .buttonOrange3],
+                            startPoint: .leading,
+                            endPoint: .trailing))
                     .cornerRadius(80)
                     .foregroundColor(.white)
                     .font(.custom("Ranchers-Regular", size: 30))
             }
-            
-            
-            
         }
         
     }
