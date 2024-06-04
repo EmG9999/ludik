@@ -20,7 +20,7 @@ struct profil: View {
             VStack {
                 
                 Text("DEMPASO")
-                    .font(.custom("TrebuchetMS", fixedSize: 30))
+                    .font(.custom("Ranchers-Regular", fixedSize: 30))
                 ZStack {
                     
                     Circle()
@@ -29,7 +29,7 @@ struct profil: View {
                 }
     
         Text("LVL 35")
-                    .font(.custom("TrebuchetMS", fixedSize: 30))
+                    .font(.custom("Ranchers", fixedSize: 30))
                     
                 
                 
