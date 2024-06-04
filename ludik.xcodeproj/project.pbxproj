@@ -15,6 +15,7 @@
 		768D92882C0DF14400595B26 /* ludikTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D92872C0DF14400595B26 /* ludikTests.swift */; };
 		768D92922C0DF14500595B26 /* ludikUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D92912C0DF14500595B26 /* ludikUITests.swift */; };
 		768D92942C0DF14500595B26 /* ludikUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D92932C0DF14500595B26 /* ludikUITestsLaunchTests.swift */; };
+		E94673362C0F35E6007D0A6F /* Ranchers-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E94673352C0F35E6007D0A6F /* Ranchers-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		768D928D2C0DF14500595B26 /* ludikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ludikUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		768D92912C0DF14500595B26 /* ludikUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ludikUITests.swift; sourceTree = "<group>"; };
 		768D92932C0DF14500595B26 /* ludikUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ludikUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E94673342C0F2327007D0A6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E94673352C0F35E6007D0A6F /* Ranchers-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ranchers-Regular.ttf"; path = "Assets.xcassets/Ranchers-Regular.dataset/Ranchers-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +99,11 @@
 		768D92732C0DF14400595B26 /* ludik */ = {
 			isa = PBXGroup;
 			children = (
+				E94673342C0F2327007D0A6F /* Info.plist */,
 				768D92742C0DF14400595B26 /* ludikApp.swift */,
 				768D92762C0DF14400595B26 /* ContentView.swift */,
 				768D92782C0DF14400595B26 /* Item.swift */,
+				E94673352C0F35E6007D0A6F /* Ranchers-Regular.ttf */,
 				768D927A2C0DF14400595B26 /* Assets.xcassets */,
 				768D927C2C0DF14400595B26 /* Preview Content */,
 			);
@@ -236,6 +241,7 @@
 			files = (
 				768D927E2C0DF14400595B26 /* Preview Assets.xcassets in Resources */,
 				768D927B2C0DF14400595B26 /* Assets.xcassets in Resources */,
+				E94673362C0F35E6007D0A6F /* Ranchers-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +435,7 @@
 				DEVELOPMENT_TEAM = G5S49Q7FLM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ludik/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -458,6 +465,7 @@
 				DEVELOPMENT_TEAM = G5S49Q7FLM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ludik/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
