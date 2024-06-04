@@ -12,7 +12,7 @@ struct ContentView: View {
     
     
     var body: some View {
-       Text("je veux jouer a paaaalworld")
+       Text("je veux jouer ")
             .bold()
         
     }
