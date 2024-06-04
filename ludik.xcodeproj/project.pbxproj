@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		766428A52C0F02BC008D3B84 /* EcranAcceuil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766428A42C0F02BC008D3B84 /* EcranAcceuil.swift */; };
 		766428A72C0F13F0008D3B84 /* profil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766428A62C0F13F0008D3B84 /* profil.swift */; };
-		766428A92C0F215C008D3B84 /* connexion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766428A82C0F215C008D3B84 /* connexion.swift */; };
+		766428A92C0F215C008D3B84 /* creationCompte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766428A82C0F215C008D3B84 /* creationCompte.swift */; };
 		766428AC2C0F3ADA008D3B84 /* Ranchers400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 766428AB2C0F3ADA008D3B84 /* Ranchers400.ttf */; };
 		766428AE2C0F3B6C008D3B84 /* Ranchers-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 766428AD2C0F3B6C008D3B84 /* Ranchers-Regular.ttf */; };
 		768D92752C0DF14400595B26 /* ludikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D92742C0DF14400595B26 /* ludikApp.swift */; };
@@ -42,7 +42,7 @@
 /* Begin PBXFileReference section */
 		766428A42C0F02BC008D3B84 /* EcranAcceuil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcranAcceuil.swift; sourceTree = "<group>"; };
 		766428A62C0F13F0008D3B84 /* profil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profil.swift; sourceTree = "<group>"; };
-		766428A82C0F215C008D3B84 /* connexion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = connexion.swift; sourceTree = "<group>"; };
+		766428A82C0F215C008D3B84 /* creationCompte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = creationCompte.swift; sourceTree = "<group>"; };
 		766428AA2C0F2353008D3B84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		766428AB2C0F3ADA008D3B84 /* Ranchers400.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ranchers400.ttf; sourceTree = "<group>"; };
 		766428AD2C0F3B6C008D3B84 /* Ranchers-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ranchers-Regular.ttf"; sourceTree = "<group>"; };
@@ -113,7 +113,7 @@
 				768D92762C0DF14400595B26 /* ContentView.swift */,
 				768D92782C0DF14400595B26 /* Item.swift */,
 				766428A42C0F02BC008D3B84 /* EcranAcceuil.swift */,
-				766428A82C0F215C008D3B84 /* connexion.swift */,
+				766428A82C0F215C008D3B84 /* creationCompte.swift */,
 				766428AD2C0F3B6C008D3B84 /* Ranchers-Regular.ttf */,
 				766428AB2C0F3ADA008D3B84 /* Ranchers400.ttf */,
 				768D927A2C0DF14400595B26 /* Assets.xcassets */,
@@ -284,7 +284,7 @@
 				766428A52C0F02BC008D3B84 /* EcranAcceuil.swift in Sources */,
 				768D92752C0DF14400595B26 /* ludikApp.swift in Sources */,
 				766428A72C0F13F0008D3B84 /* profil.swift in Sources */,
-				766428A92C0F215C008D3B84 /* connexion.swift in Sources */,
+				766428A92C0F215C008D3B84 /* creationCompte.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
