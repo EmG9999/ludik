@@ -18,8 +18,6 @@ extension Color {
 
 struct ContentView: View {
     
-    
-    
     var body: some View {
         
         
@@ -57,6 +55,7 @@ struct ContentView: View {
                     Spacer()
                     Circle()
                         .frame(width: 90)
+                        
 
                     
                     
