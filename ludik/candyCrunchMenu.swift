@@ -35,12 +35,15 @@ struct candyCrunchMenu: View {
                             .resizable()
                             .frame(width: 400.0, height: 250.0)
                             .ignoresSafeArea()
-                Text("CANDY CRUNCH")
+                VStack{
+                    Image("Vector")
+                        .padding(.bottom, 60)
+                    Text("CANDY CRUNCH")
                         .font(.custom("Ranchers-Regular", size: 60))
                         .foregroundStyle(
-                                LinearGradient(gradient: Gradient(colors: [.bubbleGumPink, .bubbleGumYellow]), startPoint: .topTrailing, endPoint: .bottom)) 
-                        
-                        
+                            LinearGradient(gradient: Gradient(colors: [.bubbleGumPink, .bubbleGumYellow]), startPoint: .topTrailing, endPoint: .bottom))
+                    
+                }
                     }
         Spacer()
             
@@ -127,20 +130,29 @@ struct candyCrunchMenu: View {
                 }.padding(.bottom, 30)
             
      
-                    Spacer()
+            Spacer()
+            Spacer()
+
             
-            ZStack{
-                Circle()
-                    .frame(width: 90)
-                    .foregroundStyle(
-                        LinearGradient(gradient: Gradient(colors: [.bubbleGumPink, .backBlue2]), startPoint: .topTrailing, endPoint: .bottom))
+            
+            
+            VStack{
+                ZStack{
+                    Circle()
+                        .frame(width: 700, height: 70)
+                        .foregroundStyle(
+                            LinearGradient(gradient: Gradient(colors: [.bubbleGumPink, .backBlue2]), startPoint: .topTrailing, endPoint: .bottom))
+                    
+                    Image("house")
+                        .resizable()
+                        .frame(width: 50, height: 45)
+
+                }
                 
-                Image("house")
-                    .resizable()
-                    .frame(width: 50, height: 45)
+               Image("Vector2")
+                
+                
             }
-            
-            
             }
         }
     }
