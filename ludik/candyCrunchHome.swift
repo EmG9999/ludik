@@ -16,7 +16,7 @@ extension Color {
     static let buttonBlue = Color(red: 111/255, green: 157/255, blue: 181/255)
 }
 
-struct ContentView: View {
+struct candyCrunchHome: View {
     
     var body: some View {
         
@@ -49,13 +49,15 @@ struct ContentView: View {
                         .foregroundStyle(
                                 LinearGradient(gradient: Gradient(colors: [.bubbleGumPink, .bubbleGumYellow]), startPoint: .topTrailing, endPoint: .bottom))
                         
+                        
                 }
                     
                     
                     Spacer()
                     Circle()
                         .frame(width: 90)
-                        
+                    
+                    
 
                     
                     
@@ -79,6 +81,6 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    candyCrunchHome()
         .modelContainer(for: Item.self, inMemory: true)
 }
