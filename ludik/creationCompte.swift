@@ -11,6 +11,10 @@ struct connexion: View {
     
     private let startColor: Color = .orange
     private let endColor: Color = .red
+    @State private var mailInput = ""
+    @State private var identifInput = ""
+    @State private var mdpInput = ""
+    @State private var confMdpInput = ""
 
     var body: some View {
         ZStack {
@@ -30,59 +34,72 @@ struct connexion: View {
                         .font(.custom("Ranchers", fixedSize: 23))
                             .foregroundStyle(.white)
               }
+
+                ZStack {
+                    
+                      
+                    Image("Rectangle 61")
+                        .position(x:130, y: 55)
+                    TextField("Mail :", text: $mailInput)
+                        .font(.custom("Ranchers", fixedSize: 18))
+                        .foregroundStyle(.white)
+                        .padding()
+                     
+                        
+                    }
+
                 ZStack {
                     Image("Rectangle 61")
-                    Text("Mail:                                                                       ")
-                        
-                        .padding(.bottom)
-                            .font(.custom("Ranchers", fixedSize: 23))
-                                .foregroundStyle(.white)
+                        .position(x:130, y: 55)
+                    TextField("Identifiant :", text: $identifInput)
+                        .font(.custom("Ranchers", fixedSize: 18))
+                        .foregroundStyle(.white)
+                        .padding()
                 }
                 ZStack {
                     Image("Rectangle 61")
-                    Text("Identifiant:                                                  ")
-                        
-                        .padding(.bottom)
-                            .font(.custom("Ranchers", fixedSize: 23))
-                                .foregroundStyle(.white)
-                }
-                ZStack {
-                    Image("Rectangle 61")
-                    Text("Mot de Passe:                                          ")
-                        
-                        .padding(.bottom)
-                            .font(.custom("Ranchers", fixedSize: 23))
-                                .foregroundStyle(.white)
+                        .position(x: 130,y: 55)
+                    TextField("Mot de passe :", text: $mdpInput)
+                        .font(.custom("Ranchers", fixedSize: 18))
+                        .foregroundStyle(.white)
+                        .padding()
                 }
                 ZStack {
                     Image("Rectangle 66")
-                    Text("Confirmer mot de passe:                                  ")
-                        
-                        .padding(.bottom)
-                            .font(.custom("Ranchers", fixedSize: 23))
-                                .foregroundStyle(.white)
+                        .position(x: 162, y: 55)
+                    TextField("Confirmer mot de passe :", text: $confMdpInput)
+                        .font(.custom("Ranchers", fixedSize: 18))
+                        .foregroundStyle(.white)
+                        .padding()
                 }
                 ZStack {
-                    Image("Rectangle 2")
-                    VStack(spacing: -20) {
+                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                        ZStack {
+                            
                        
-                        Text("Creation")
-                            .padding(.bottom)
-                                .font(.custom("Ranchers", fixedSize: 30))
-                                    .foregroundStyle(.white)
-                        
-                        Text("De")
-                            .padding(.bottom)
-                                .font(.custom("Ranchers", fixedSize: 25))
-                                    .foregroundStyle(.white)
-                        Text("Compte")
-                            .padding(.bottom)
-                                .font(.custom("Ranchers", fixedSize: 30))
-                                    .foregroundStyle(.white)
-                    }
+                        Image("Rectangle 2")
+                        VStack(spacing: -20) {
+                           
+                            Text("Creation")
+                                .padding(.bottom)
+                                    .font(.custom("Ranchers", fixedSize: 30))
+                                        .foregroundStyle(.white)
+                            
+                            Text("De")
+                                .padding(.bottom)
+                                    .font(.custom("Ranchers", fixedSize: 25))
+                                        .foregroundStyle(.white)
+                            Text("Compte")
+                                .padding(.bottom)
+                                    .font(.custom("Ranchers", fixedSize: 30))
+                                        .foregroundStyle(.white)
+                        }
+                        }
+                    })
+                   
                     
                 }
-            }
+            }.position(x:195, y : 400)
           }
         }
       }
