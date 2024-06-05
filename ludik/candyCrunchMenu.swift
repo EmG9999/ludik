@@ -43,34 +43,104 @@ struct candyCrunchMenu: View {
                         
                     }
         Spacer()
+            
+            HStack{
+                VStack{
+                    Image("Boule1")
+                        .resizable()
+                        .frame(width: 45, height: 45)
+                    Image("Boule10")
+                        .resizable()
+                        .frame(width: 45, height: 45)
+                    Image("Boule7")
+                        .resizable()
+                        .frame(width: 45, height: 45)
+                    Image("Boule8")
+                        .resizable()
+                        .frame(width: 45, height: 45)
+                }.padding(.horizontal, 2)
                 
+                
+                VStack{
+                    Image("Boule6")
+                        .resizable()
+                        .frame(width: 45, height: 45)
+                    Image("Boule10")
+                        .resizable()
+                        .frame(width: 45, height: 45)
+                    Image("Boule10")
+                        .resizable()
+                        .frame(width: 45, height: 45)
+                    Image("Boule1")
+                        .resizable()
+                        .frame(width: 45, height: 45)
+                }.padding(.horizontal)
+                
+                
+                VStack{
+                    Image("Boule4")
+                        .resizable()
+                        .frame(width: 45, height: 45)
+                    Image("Boule9")
+                        .resizable()
+                        .frame(width: 45, height: 45)
+                    Image("Boule7")
+                        .resizable()
+                        .frame(width: 45, height: 45)
+                    Image("Boule4")
+                        .resizable()
+                        .frame(width: 45, height: 45)
+                }.padding(.horizontal, 2)
+                
+                
+                VStack{
+                    Image("Boule6")
+                        .resizable()
+                        .frame(width: 45, height: 45)
+                    Image("Boule10")
+                        .resizable()
+                        .frame(width: 45, height: 45)
+                    Image("Boule1")
+                        .resizable()
+                        .frame(width: 45, height: 45)
+                    Image("Boule3")
+                        .resizable()
+                        .frame(width: 45, height: 45)
+                }.padding(.horizontal, 10)
+                
+                
+            }
+            
                 ZStack{
+                    
                     RoundedRectangle(cornerSize: CGSize(width: 80, height: 30))
                         .fill(Color.buttonBlue)
                         .frame(width: 300, height: 120)
                 
-                    Text("COMMENCERr ")
+                    Text("COMMENCER")
                         .font(.custom("Ranchers-Regular", size: 40))
                         .foregroundStyle(
                                 LinearGradient(gradient: Gradient(colors: [.bubbleGumPink, .bubbleGumYellow]), startPoint: .topTrailing, endPoint: .bottom))
                     
                         
                         
-                }
-                    
-                    
+                }.padding(.bottom, 30)
+            
+     
                     Spacer()
-                    Circle()
-                        .frame(width: 90)
-                        .foregroundStyle(
-                                LinearGradient(gradient: Gradient(colors: [.bubbleGumPink, .backBlue2]), startPoint: .topTrailing, endPoint: .bottom))
-                    
-                    
-
-                    
-                    
-                    
-                    
+            
+            ZStack{
+                Circle()
+                    .frame(width: 90)
+                    .foregroundStyle(
+                        LinearGradient(gradient: Gradient(colors: [.bubbleGumPink, .backBlue2]), startPoint: .topTrailing, endPoint: .bottom))
+                
+                Image("house")
+                    .resizable()
+                    .frame(width: 50, height: 45)
+            }
+            
+            
             }
         }
     }
