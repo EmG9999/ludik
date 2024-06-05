@@ -49,7 +49,7 @@ struct candyCrunchMenu: View {
                         .fill(Color.buttonBlue)
                         .frame(width: 300, height: 120)
                 
-                    Text("COMMENCER ")
+                    Text("COMMENCERr ")
                         .font(.custom("Ranchers-Regular", size: 40))
                         .foregroundStyle(
                                 LinearGradient(gradient: Gradient(colors: [.bubbleGumPink, .bubbleGumYellow]), startPoint: .topTrailing, endPoint: .bottom))
