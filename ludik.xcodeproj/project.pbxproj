@@ -13,7 +13,7 @@
 		766428AC2C0F3ADA008D3B84 /* Ranchers400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 766428AB2C0F3ADA008D3B84 /* Ranchers400.ttf */; };
 		766428AE2C0F3B6C008D3B84 /* Ranchers-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 766428AD2C0F3B6C008D3B84 /* Ranchers-Regular.ttf */; };
 		768D92752C0DF14400595B26 /* ludikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D92742C0DF14400595B26 /* ludikApp.swift */; };
-		768D92772C0DF14400595B26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D92762C0DF14400595B26 /* ContentView.swift */; };
+		768D92772C0DF14400595B26 /* ContentViewEM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D92762C0DF14400595B26 /* ContentViewEM.swift */; };
 		768D92792C0DF14400595B26 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D92782C0DF14400595B26 /* Item.swift */; };
 		768D927B2C0DF14400595B26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 768D927A2C0DF14400595B26 /* Assets.xcassets */; };
 		768D927E2C0DF14400595B26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 768D927D2C0DF14400595B26 /* Preview Assets.xcassets */; };
@@ -48,7 +48,7 @@
 		766428AD2C0F3B6C008D3B84 /* Ranchers-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ranchers-Regular.ttf"; sourceTree = "<group>"; };
 		768D92712C0DF14400595B26 /* ludik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ludik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		768D92742C0DF14400595B26 /* ludikApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ludikApp.swift; sourceTree = "<group>"; };
-		768D92762C0DF14400595B26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		768D92762C0DF14400595B26 /* ContentViewEM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewEM.swift; sourceTree = "<group>"; };
 		768D92782C0DF14400595B26 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		768D927A2C0DF14400595B26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		768D927D2C0DF14400595B26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -110,7 +110,7 @@
 				766428AA2C0F2353008D3B84 /* Info.plist */,
 				768D92742C0DF14400595B26 /* ludikApp.swift */,
 				766428A62C0F13F0008D3B84 /* profil.swift */,
-				768D92762C0DF14400595B26 /* ContentView.swift */,
+				768D92762C0DF14400595B26 /* ContentViewEM.swift */,
 				768D92782C0DF14400595B26 /* Item.swift */,
 				766428A42C0F02BC008D3B84 /* EcranAcceuil.swift */,
 				766428A82C0F215C008D3B84 /* creationCompte.swift */,
@@ -279,7 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				768D92772C0DF14400595B26 /* ContentView.swift in Sources */,
+				768D92772C0DF14400595B26 /* ContentViewEM.swift in Sources */,
 				768D92792C0DF14400595B26 /* Item.swift in Sources */,
 				766428A52C0F02BC008D3B84 /* EcranAcceuil.swift in Sources */,
 				768D92752C0DF14400595B26 /* ludikApp.swift in Sources */,
