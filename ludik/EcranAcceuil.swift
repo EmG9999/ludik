@@ -26,21 +26,24 @@ struct tetris: View {
 
            
                 VStack {
+                   
                     Image("projecteur2")
                         .position(x: 59, y: 50)
                     Image("LogoEducation1")
                         .position(x: 196)
-                    ZStack {
-                Image("Rectangle2")
-                           .position(x: 205, y: 100)
-                HStack {
-                Image("JOUER")
-                       .position(x: 175, y: 100)
-                Image("Polygon4")
-                     .position(x: 95, y: 100)
-                }
-                }
-               
+                  
+                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                        ZStack {
+                    Image("Rectangle2")
+                               .position(x: 205, y: 100)
+                    HStack {
+                    Image("JOUER")
+                           .position(x: 175, y: 100)
+                    Image("Polygon4")
+                         .position(x: 95, y: 100)
+                    }
+                    }
+                    })
             }
         }
     }
