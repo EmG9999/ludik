@@ -11,6 +11,8 @@ extension Color{
     // Couleurs fon écran appli
     static let fondEcranColor1 = Color(red: 255/255, green: 166/255, blue: 41/255)
     static let fondEcranColor2 = Color(red: 243/255, green: 74/255, blue: 85/255)
+    static let francaisColor1 = Color(red: 240/255, green: 147/255, blue: 147/255)
+    static let FrancaisColor2 = Color(red: 212/255, green: 34/255, blue: 34/255)
 }
 
 struct Frame3Matiere: View {
@@ -18,22 +20,34 @@ struct Frame3Matiere: View {
         ZStack {
             LinearGradient(colors:[.fondEcranColor1, .fondEcranColor2], startPoint: .top, endPoint: .bottom).edgesIgnoringSafeArea(.all)
             VStack {
-               Image("AnimateurSolo")
-                    .resizable()
+                ZStack {
+                    Image("AnimateurSolo")
+                        .resizable()
                     .frame(width: 300, height: 300)
-                HStack{
-                    Rectangle()
-                        .frame(width: 150,height: 100)
-                    Rectangle()
-                        .frame(width: 150,height: 100)
+                    .padding(.top)
+                    ZStack {
+                        Rectangle()
+                            .frame(width: 300,height: 15)
+                        .padding(.bottom,200)
+                    }
                 }
                 HStack{
                     Rectangle()
-                        .frame(width: 150,height: 100)
+                        .frame(width: 140,height: 100)
+                        .foregroundColor(.red)
                     Rectangle()
-                        .frame(width: 150,height: 100)
+                        .frame(width: 140,height: 100)
                 }
+                HStack{
+                    Rectangle()
+                        .frame(width: 140,height: 100)
+                    Rectangle()
+                        .frame(width: 140,height: 100)
+                }
+                Rectangle()
+                    .frame(width: 140,height: 100)
             }
+            .padding(.bottom, 100)
         }
     }
 }
