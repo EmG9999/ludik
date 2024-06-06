@@ -32,7 +32,7 @@ struct gameSoso: View {
                         .frame(width: 400.0, height: 280.0)
                         .ignoresSafeArea()
                     
-                Text("Devine le nombre")
+                Text("Trouve le nombre")
                         .font(.custom("Ranchers-Regular", size: 55))
                         .foregroundStyle(
                             LinearGradient(gradient: Gradient(colors: [.bubbleGumPink, .bubbleGumYellow]), startPoint: .topTrailing, endPoint: .bottom))

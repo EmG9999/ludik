@@ -13,6 +13,8 @@ extension Color {
     static let backBlue2 = Color(red: 142/255, green: 192/255, blue: 215/255)
     static let bubbleGumYellow = Color(red: 253/255, green: 252/255, blue: 198/255)
     static let buttonBlue = Color(red: 111/255, green: 157/255, blue: 181/255)
+    static let backHomeOrange = Color(red: 255/255, green: 166/255, blue: 41/255)
+    static let backHomeRed = Color(red: 243/255, green: 74/255, blue: 85/255)
 }
 
 struct MenuCandySoso: View {
@@ -118,20 +120,19 @@ struct MenuCandySoso: View {
                     
                     
                     NavigationLink(destination: gameSoso()){
-                        ZStack{
+                        Text("COMMENCER")
+                            .font(.custom("Ranchers-Regular", size: 50))
+                            .padding()
+                            .background(Color.buttonBlue)
+                            .foregroundStyle(
+                                        LinearGradient(gradient: Gradient(colors: [.bubbleGumYellow, .bubbleGumPink]), startPoint: .topTrailing, endPoint: .topLeading))
+                            .shadow(color: .black, radius: 5, x: 2, y: 3)
+                            .border(Color.black)
+                            .cornerRadius(20)
+                            .shadow(color: .black, radius: 2, x: 2, y: 3)
                             
-                            RoundedRectangle(cornerSize: CGSize(width: 80, height: 30))
-                                .fill(Color.buttonBlue)
-                                .frame(width: 300, height: 120)
-                            
-                            Text("COMMENCER")
-                                .font(.custom("Ranchers-Regular", size: 40))
-                                .foregroundStyle(
-                                    LinearGradient(gradient: Gradient(colors: [.bubbleGumPink, .bubbleGumYellow]), startPoint: .topTrailing, endPoint: .bottom))
                             
                             
-                            
-                        }.padding(.bottom, 30)
                     }
                     
                     
