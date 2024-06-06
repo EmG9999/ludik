@@ -17,160 +17,156 @@ extension Color {
 
 struct MenuCandySoso: View {
     var body: some View {
-        
-        
-        
-        
-        ZStack{
+        NavigationStack{
+            
+            
+            
+            
+            ZStack{
                 LinearGradient(colors: [.backBlue, .backBlue2], startPoint: .top, endPoint: .topTrailing)
                     .ignoresSafeArea()
                 
                 
                 
-            
-            
-        VStack{
-            ZStack{
-                Image("ImageJeuSoso")
+                
+                
+                VStack{
+                    ZStack{
+                        Image("ImageJeuSoso")
                             .resizable()
                             .frame(width: 400.0, height: 250.0)
                             .ignoresSafeArea()
-                VStack{
-                    Image("Vector")
-                        .padding(.bottom, 60)
-                    Text("CANDY CRUNCH")
-                        .font(.custom("Ranchers-Regular", size: 60))
-                        .foregroundStyle(
-                            LinearGradient(gradient: Gradient(colors: [.bubbleGumPink, .bubbleGumYellow]), startPoint: .topTrailing, endPoint: .bottom))
-                    
-                }
+                            
+                        VStack{
+                            Image("Vector")
+                                .padding(.bottom, 60)
+                            Text("TROUVE LE NOMBRE")
+                                .font(.custom("Ranchers-Regular", size: 45))
+                                .foregroundStyle(
+                                    LinearGradient(gradient: Gradient(colors: [.bubbleGumPink, .bubbleGumYellow]), startPoint: .topTrailing, endPoint: .bottom))
+                            
+                        }
                     }
-        Spacer()
-            
-            HStack{
-                VStack{
-                    Image("Boule1")
-                        .resizable()
-                        .frame(width: 45, height: 45)
-                    Image("Boule10")
-                        .resizable()
-                        .frame(width: 45, height: 45)
-                    Image("Boule7")
-                        .resizable()
-                        .frame(width: 45, height: 45)
-                    Image("Boule8")
-                        .resizable()
-                        .frame(width: 45, height: 45)
-                }.padding(.horizontal, 2)
-                
-                
-                VStack{
-                    Image("Boule6")
-                        .resizable()
-                        .frame(width: 45, height: 45)
-                    Image("Boule10")
-                        .resizable()
-                        .frame(width: 45, height: 45)
-                    Image("Boule10")
-                        .resizable()
-                        .frame(width: 45, height: 45)
-                    Image("Boule1")
-                        .resizable()
-                        .frame(width: 45, height: 45)
-                }.padding(.horizontal)
-                
-                
-                VStack{
-                    Image("Boule4")
-                        .resizable()
-                        .frame(width: 45, height: 45)
-                    Image("Boule9")
-                        .resizable()
-                        .frame(width: 45, height: 45)
-                    Image("Boule7")
-                        .resizable()
-                        .frame(width: 45, height: 45)
-                    Image("Boule4")
-                        .resizable()
-                        .frame(width: 45, height: 45)
-                }.padding(.horizontal, 2)
-                
-                
-                VStack{
-                    Image("Boule6")
-                        .resizable()
-                        .frame(width: 45, height: 45)
-                    Image("Boule10")
-                        .resizable()
-                        .frame(width: 45, height: 45)
-                    Image("Boule1")
-                        .resizable()
-                        .frame(width: 45, height: 45)
-                    Image("Boule3")
-                        .resizable()
-                        .frame(width: 45, height: 45)
-                }.padding(.horizontal, 10)
-                
-                
-            }
-            
-                ZStack{
+                    Spacer()
                     
-                    RoundedRectangle(cornerSize: CGSize(width: 80, height: 30))
-                        .fill(Color.buttonBlue)
-                        .frame(width: 300, height: 120)
-                
-                    Text("COMMENCER")
-                        .font(.custom("Ranchers-Regular", size: 40))
-                        .foregroundStyle(
-                                LinearGradient(gradient: Gradient(colors: [.bubbleGumPink, .bubbleGumYellow]), startPoint: .topTrailing, endPoint: .bottom))
-                    
+                    HStack{
+                        VStack{
+                            Image("Boule1")
+                                .resizable()
+                                .frame(width: 45, height: 45)
+                            Image("Boule10")
+                                .resizable()
+                                .frame(width: 45, height: 45)
+                            Image("Boule7")
+                                .resizable()
+                                .frame(width: 45, height: 45)
+                            Image("Boule8")
+                                .resizable()
+                                .frame(width: 45, height: 45)
+                        }.padding(.horizontal, 2)
                         
                         
-                }.padding(.bottom, 30)
-            
-     
-            Spacer()
-            Spacer()
-
-            
-            
-            
-            VStack{
-                ZStack{
-                    Circle()
-                        .frame(width: 700, height: 70)
-                        .foregroundStyle(
-                            LinearGradient(gradient: Gradient(colors: [.bubbleGumPink, .backBlue2]), startPoint: .topTrailing, endPoint: .bottom))
+                        VStack{
+                            Image("Boule6")
+                                .resizable()
+                                .frame(width: 45, height: 45)
+                            Image("Boule10")
+                                .resizable()
+                                .frame(width: 45, height: 45)
+                            Image("Boule10")
+                                .resizable()
+                                .frame(width: 45, height: 45)
+                            Image("Boule1")
+                                .resizable()
+                                .frame(width: 45, height: 45)
+                        }.padding(.horizontal)
+                        
+                        
+                        VStack{
+                            Image("Boule4")
+                                .resizable()
+                                .frame(width: 45, height: 45)
+                            Image("Boule9")
+                                .resizable()
+                                .frame(width: 45, height: 45)
+                            Image("Boule7")
+                                .resizable()
+                                .frame(width: 45, height: 45)
+                            Image("Boule4")
+                                .resizable()
+                                .frame(width: 45, height: 45)
+                        }.padding(.horizontal, 2)
+                        
+                        
+                        VStack{
+                            Image("Boule6")
+                                .resizable()
+                                .frame(width: 45, height: 45)
+                            Image("Boule10")
+                                .resizable()
+                                .frame(width: 45, height: 45)
+                            Image("Boule1")
+                                .resizable()
+                                .frame(width: 45, height: 45)
+                            Image("Boule3")
+                                .resizable()
+                                .frame(width: 45, height: 45)
+                        }.padding(.horizontal, 10)
+                        
+                        
+                    }
                     
-                    Image("house")
-                        .resizable()
-                        .frame(width: 50, height: 45)
-
+                    
+                    NavigationLink(destination: gameSoso()){
+                        ZStack{
+                            
+                            RoundedRectangle(cornerSize: CGSize(width: 80, height: 30))
+                                .fill(Color.buttonBlue)
+                                .frame(width: 300, height: 120)
+                            
+                            Text("COMMENCER")
+                                .font(.custom("Ranchers-Regular", size: 40))
+                                .foregroundStyle(
+                                    LinearGradient(gradient: Gradient(colors: [.bubbleGumPink, .bubbleGumYellow]), startPoint: .topTrailing, endPoint: .bottom))
+                            
+                            
+                            
+                        }.padding(.bottom, 30)
+                    }
+                    
+                    
+                    
+                    
+                    Spacer()
+                    Spacer()
+                    
+                    
+                    
+                    
+                    VStack{
+                        ZStack{
+                            Circle()
+                                .frame(width: 700, height: 70)
+                                .foregroundStyle(
+                                    LinearGradient(gradient: Gradient(colors: [.bubbleGumPink, .backBlue2]), startPoint: .topTrailing, endPoint: .bottom))
+                            
+                            Image("house")
+                                .resizable()
+                                .frame(width: 50, height: 45)
+                            
+                        }
+                        
+                        Image("Vector2")
+                        
+                        
+                    }
                 }
-                
-               Image("Vector2")
-                
-                
-            }
             }
         }
+        
     }
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
     
 }
-    
-
 
 #Preview {
     MenuCandySoso()

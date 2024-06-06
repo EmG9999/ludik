@@ -18,6 +18,7 @@
 		768D92922C0DF14500595B26 /* ludikUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D92912C0DF14500595B26 /* ludikUITests.swift */; };
 		768D92942C0DF14500595B26 /* ludikUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D92932C0DF14500595B26 /* ludikUITestsLaunchTests.swift */; };
 		E946733B2C11AFA2007D0A6F /* MenuCandySoso.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946733A2C11AFA2007D0A6F /* MenuCandySoso.swift */; };
+		E946733D2C11B2FF007D0A6F /* gameSoso.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946733C2C11B2FF007D0A6F /* gameSoso.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		768D92912C0DF14500595B26 /* ludikUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ludikUITests.swift; sourceTree = "<group>"; };
 		768D92932C0DF14500595B26 /* ludikUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ludikUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E946733A2C11AFA2007D0A6F /* MenuCandySoso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCandySoso.swift; sourceTree = "<group>"; };
+		E946733C2C11B2FF007D0A6F /* gameSoso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameSoso.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				768D92742C0DF14400595B26 /* ludikApp.swift */,
 				768D92782C0DF14400595B26 /* Item.swift */,
 				E946733A2C11AFA2007D0A6F /* MenuCandySoso.swift */,
+				E946733C2C11B2FF007D0A6F /* gameSoso.swift */,
 				766428AD2C0F3B6C008D3B84 /* Ranchers-Regular.ttf */,
 				766428AB2C0F3ADA008D3B84 /* Ranchers400.ttf */,
 				768D927A2C0DF14400595B26 /* Assets.xcassets */,
@@ -275,6 +278,7 @@
 				768D92792C0DF14400595B26 /* Item.swift in Sources */,
 				E946733B2C11AFA2007D0A6F /* MenuCandySoso.swift in Sources */,
 				768D92752C0DF14400595B26 /* ludikApp.swift in Sources */,
+				E946733D2C11B2FF007D0A6F /* gameSoso.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
