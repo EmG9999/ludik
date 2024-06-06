@@ -12,6 +12,9 @@
 		766428A92C0F215C008D3B84 /* creationCompte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766428A82C0F215C008D3B84 /* creationCompte.swift */; };
 		766428AC2C0F3ADA008D3B84 /* Ranchers400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 766428AB2C0F3ADA008D3B84 /* Ranchers400.ttf */; };
 		766428AE2C0F3B6C008D3B84 /* Ranchers-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 766428AD2C0F3B6C008D3B84 /* Ranchers-Regular.ttf */; };
+		766428B42C11AFED008D3B84 /* tetrisJeux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766428B32C11AFED008D3B84 /* tetrisJeux.swift */; };
+		766428B62C11B3C7008D3B84 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766428B52C11B3C7008D3B84 /* ViewModel.swift */; };
+		766428B92C11B4CF008D3B84 /* SquareGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766428B82C11B4CF008D3B84 /* SquareGame.swift */; };
 		768D92752C0DF14400595B26 /* ludikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D92742C0DF14400595B26 /* ludikApp.swift */; };
 		768D92772C0DF14400595B26 /* ContentViewEM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D92762C0DF14400595B26 /* ContentViewEM.swift */; };
 		768D92792C0DF14400595B26 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D92782C0DF14400595B26 /* Item.swift */; };
@@ -46,6 +49,9 @@
 		766428AA2C0F2353008D3B84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		766428AB2C0F3ADA008D3B84 /* Ranchers400.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ranchers400.ttf; sourceTree = "<group>"; };
 		766428AD2C0F3B6C008D3B84 /* Ranchers-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ranchers-Regular.ttf"; sourceTree = "<group>"; };
+		766428B32C11AFED008D3B84 /* tetrisJeux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tetrisJeux.swift; sourceTree = "<group>"; };
+		766428B52C11B3C7008D3B84 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		766428B82C11B4CF008D3B84 /* SquareGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareGame.swift; sourceTree = "<group>"; };
 		768D92712C0DF14400595B26 /* ludik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ludik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		768D92742C0DF14400595B26 /* ludikApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ludikApp.swift; sourceTree = "<group>"; };
 		768D92762C0DF14400595B26 /* ContentViewEM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewEM.swift; sourceTree = "<group>"; };
@@ -84,6 +90,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		766428B72C11B4A4008D3B84 /* tetris */ = {
+			isa = PBXGroup;
+			children = (
+				766428B32C11AFED008D3B84 /* tetrisJeux.swift */,
+				766428B52C11B3C7008D3B84 /* ViewModel.swift */,
+				766428B82C11B4CF008D3B84 /* SquareGame.swift */,
+			);
+			path = tetris;
+			sourceTree = "<group>";
+		};
 		768D92682C0DF14400595B26 = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +129,7 @@
 				768D92762C0DF14400595B26 /* ContentViewEM.swift */,
 				768D92782C0DF14400595B26 /* Item.swift */,
 				766428A42C0F02BC008D3B84 /* EcranAcceuil.swift */,
+				766428B72C11B4A4008D3B84 /* tetris */,
 				766428A82C0F215C008D3B84 /* creationCompte.swift */,
 				766428AD2C0F3B6C008D3B84 /* Ranchers-Regular.ttf */,
 				766428AB2C0F3ADA008D3B84 /* Ranchers400.ttf */,
@@ -280,10 +297,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				768D92772C0DF14400595B26 /* ContentViewEM.swift in Sources */,
+				766428B42C11AFED008D3B84 /* tetrisJeux.swift in Sources */,
 				768D92792C0DF14400595B26 /* Item.swift in Sources */,
 				766428A52C0F02BC008D3B84 /* EcranAcceuil.swift in Sources */,
 				768D92752C0DF14400595B26 /* ludikApp.swift in Sources */,
 				766428A72C0F13F0008D3B84 /* profil.swift in Sources */,
+				766428B92C11B4CF008D3B84 /* SquareGame.swift in Sources */,
+				766428B62C11B3C7008D3B84 /* ViewModel.swift in Sources */,
 				766428A92C0F215C008D3B84 /* creationCompte.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
