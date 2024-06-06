@@ -25,7 +25,7 @@ struct ludikApp: App {
 
     var body: some Scene {
         WindowGroup {
-            candyCrunchMenu()
+            MenuCandySoso()
         }
         .modelContainer(sharedModelContainer)
     }

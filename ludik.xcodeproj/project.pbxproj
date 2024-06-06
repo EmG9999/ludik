@@ -7,20 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		766428A52C0F02BC008D3B84 /* EcranAcceuil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766428A42C0F02BC008D3B84 /* EcranAcceuil.swift */; };
-		766428A72C0F13F0008D3B84 /* profil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766428A62C0F13F0008D3B84 /* profil.swift */; };
-		766428A92C0F215C008D3B84 /* creationCompte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766428A82C0F215C008D3B84 /* creationCompte.swift */; };
 		766428AC2C0F3ADA008D3B84 /* Ranchers400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 766428AB2C0F3ADA008D3B84 /* Ranchers400.ttf */; };
 		766428AE2C0F3B6C008D3B84 /* Ranchers-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 766428AD2C0F3B6C008D3B84 /* Ranchers-Regular.ttf */; };
 		768D92752C0DF14400595B26 /* ludikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D92742C0DF14400595B26 /* ludikApp.swift */; };
-		768D92772C0DF14400595B26 /* ContentViewEM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D92762C0DF14400595B26 /* ContentViewEM.swift */; };
+		768D92772C0DF14400595B26 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		768D92792C0DF14400595B26 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D92782C0DF14400595B26 /* Item.swift */; };
 		768D927B2C0DF14400595B26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 768D927A2C0DF14400595B26 /* Assets.xcassets */; };
 		768D927E2C0DF14400595B26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 768D927D2C0DF14400595B26 /* Preview Assets.xcassets */; };
 		768D92882C0DF14400595B26 /* ludikTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D92872C0DF14400595B26 /* ludikTests.swift */; };
 		768D92922C0DF14500595B26 /* ludikUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D92912C0DF14500595B26 /* ludikUITests.swift */; };
 		768D92942C0DF14500595B26 /* ludikUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D92932C0DF14500595B26 /* ludikUITestsLaunchTests.swift */; };
-		E94673382C1068B5007D0A6F /* candyCrunchMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94673372C1068B5007D0A6F /* candyCrunchMenu.swift */; };
+		E946733B2C11AFA2007D0A6F /* MenuCandySoso.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946733A2C11AFA2007D0A6F /* MenuCandySoso.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		766428A42C0F02BC008D3B84 /* EcranAcceuil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcranAcceuil.swift; sourceTree = "<group>"; };
-		766428A62C0F13F0008D3B84 /* profil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profil.swift; sourceTree = "<group>"; };
-		766428A82C0F215C008D3B84 /* creationCompte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = creationCompte.swift; sourceTree = "<group>"; };
 		766428AA2C0F2353008D3B84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		766428AB2C0F3ADA008D3B84 /* Ranchers400.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ranchers400.ttf; sourceTree = "<group>"; };
 		766428AD2C0F3B6C008D3B84 /* Ranchers-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ranchers-Regular.ttf"; sourceTree = "<group>"; };
@@ -57,9 +51,7 @@
 		768D928D2C0DF14500595B26 /* ludikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ludikUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		768D92912C0DF14500595B26 /* ludikUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ludikUITests.swift; sourceTree = "<group>"; };
 		768D92932C0DF14500595B26 /* ludikUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ludikUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		E94673342C0F2327007D0A6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		E94673352C0F35E6007D0A6F /* Ranchers-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ranchers-Regular.ttf"; path = "Assets.xcassets/Ranchers-Regular.dataset/Ranchers-Regular.ttf"; sourceTree = "<group>"; };
-		E94673372C1068B5007D0A6F /* candyCrunchMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = candyCrunchMenu.swift; sourceTree = "<group>"; };
+		E946733A2C11AFA2007D0A6F /* MenuCandySoso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCandySoso.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,16 +104,12 @@
 			children = (
 				766428AA2C0F2353008D3B84 /* Info.plist */,
 				768D92742C0DF14400595B26 /* ludikApp.swift */,
-				766428A62C0F13F0008D3B84 /* profil.swift */,
-				768D92762C0DF14400595B26 /* ContentViewEM.swift */,
 				768D92782C0DF14400595B26 /* Item.swift */,
-				766428A42C0F02BC008D3B84 /* EcranAcceuil.swift */,
-				766428A82C0F215C008D3B84 /* creationCompte.swift */,
 				766428AD2C0F3B6C008D3B84 /* Ranchers-Regular.ttf */,
 				766428AB2C0F3ADA008D3B84 /* Ranchers400.ttf */,
-				E94673372C1068B5007D0A6F /* candyCrunchMenu.swift */,
 				768D927A2C0DF14400595B26 /* Assets.xcassets */,
 				768D927C2C0DF14400595B26 /* Preview Content */,
+				E946733A2C11AFA2007D0A6F /* MenuCandySoso.swift */,
 			);
 			path = ludik;
 			sourceTree = "<group>";
@@ -259,7 +247,6 @@
 				766428AE2C0F3B6C008D3B84 /* Ranchers-Regular.ttf in Resources */,
 				768D927E2C0DF14400595B26 /* Preview Assets.xcassets in Resources */,
 				768D927B2C0DF14400595B26 /* Assets.xcassets in Resources */,
-				E94673362C0F35E6007D0A6F /* Ranchers-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,13 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				768D92772C0DF14400595B26 /* ContentViewEM.swift in Sources */,
+				768D92772C0DF14400595B26 /* (null) in Sources */,
 				768D92792C0DF14400595B26 /* Item.swift in Sources */,
-				766428A52C0F02BC008D3B84 /* EcranAcceuil.swift in Sources */,
+				E946733B2C11AFA2007D0A6F /* MenuCandySoso.swift in Sources */,
 				768D92752C0DF14400595B26 /* ludikApp.swift in Sources */,
-				766428A72C0F13F0008D3B84 /* profil.swift in Sources */,
-				766428A92C0F215C008D3B84 /* creationCompte.swift in Sources */,
-				E94673382C1068B5007D0A6F /* candyCrunchMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
