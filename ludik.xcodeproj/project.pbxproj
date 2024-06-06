@@ -105,11 +105,11 @@
 				766428AA2C0F2353008D3B84 /* Info.plist */,
 				768D92742C0DF14400595B26 /* ludikApp.swift */,
 				768D92782C0DF14400595B26 /* Item.swift */,
+				E946733A2C11AFA2007D0A6F /* MenuCandySoso.swift */,
 				766428AD2C0F3B6C008D3B84 /* Ranchers-Regular.ttf */,
 				766428AB2C0F3ADA008D3B84 /* Ranchers400.ttf */,
 				768D927A2C0DF14400595B26 /* Assets.xcassets */,
 				768D927C2C0DF14400595B26 /* Preview Content */,
-				E946733A2C11AFA2007D0A6F /* MenuCandySoso.swift */,
 			);
 			path = ludik;
 			sourceTree = "<group>";
