@@ -23,6 +23,7 @@
 		768D92882C0DF14400595B26 /* ludikTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D92872C0DF14400595B26 /* ludikTests.swift */; };
 		768D92922C0DF14500595B26 /* ludikUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D92912C0DF14500595B26 /* ludikUITests.swift */; };
 		768D92942C0DF14500595B26 /* ludikUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D92932C0DF14500595B26 /* ludikUITestsLaunchTests.swift */; };
+		E9134CD52C136D3000FF35B5 /* patriceJeuCommencer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9134CD42C136D3000FF35B5 /* patriceJeuCommencer.swift */; };
 		E94DE4262C1350D300BA3C16 /* MenuCandySosooo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DE4252C1350D300BA3C16 /* MenuCandySosooo.swift */; };
 		E94DE4282C13511E00BA3C16 /* gameSosooo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DE4272C13511E00BA3C16 /* gameSosooo.swift */; };
 		E94DE42A2C1368D300BA3C16 /* demboJeuCommencer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DE4292C1368D300BA3C16 /* demboJeuCommencer.swift */; };
@@ -71,6 +72,7 @@
 		768D928D2C0DF14500595B26 /* ludikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ludikUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		768D92912C0DF14500595B26 /* ludikUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ludikUITests.swift; sourceTree = "<group>"; };
 		768D92932C0DF14500595B26 /* ludikUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ludikUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E9134CD42C136D3000FF35B5 /* patriceJeuCommencer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = patriceJeuCommencer.swift; sourceTree = "<group>"; };
 		E94DE4252C1350D300BA3C16 /* MenuCandySosooo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCandySosooo.swift; sourceTree = "<group>"; };
 		E94DE4272C13511E00BA3C16 /* gameSosooo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameSosooo.swift; sourceTree = "<group>"; };
 		E94DE4292C1368D300BA3C16 /* demboJeuCommencer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demboJeuCommencer.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 				E94DE42D2C136A0800BA3C16 /* jeuCompteurDembo.swift */,
 				E94DE4312C136C0300BA3C16 /* matierePatrice.swift */,
 				E94DE4332C136C7900BA3C16 /* jeuQuizzPatrice.swift */,
+				E9134CD42C136D3000FF35B5 /* patriceJeuCommencer.swift */,
 			);
 			path = ludik;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 				E94DE4262C1350D300BA3C16 /* MenuCandySosooo.swift in Sources */,
 				E94DE4282C13511E00BA3C16 /* gameSosooo.swift in Sources */,
 				766428EA2C13618C008D3B84 /* reponseMain.swift in Sources */,
+				E9134CD52C136D3000FF35B5 /* patriceJeuCommencer.swift in Sources */,
 				766428E22C135F41008D3B84 /* CommencerMathAdder.swift in Sources */,
 				E94DE4302C136AF500BA3C16 /* jeuEmiliano.swift in Sources */,
 				E94DE4322C136C0300BA3C16 /* matierePatrice.swift in Sources */,
