@@ -27,6 +27,7 @@
 		E94DE4282C13511E00BA3C16 /* gameSosooo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DE4272C13511E00BA3C16 /* gameSosooo.swift */; };
 		E94DE42A2C1368D300BA3C16 /* demboJeuCommencer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DE4292C1368D300BA3C16 /* demboJeuCommencer.swift */; };
 		E94DE42C2C1369B000BA3C16 /* classeDembo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DE42B2C1369B000BA3C16 /* classeDembo.swift */; };
+		E94DE42E2C136A0800BA3C16 /* jeuCompteurDembo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DE42D2C136A0800BA3C16 /* jeuCompteurDembo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		E94DE4272C13511E00BA3C16 /* gameSosooo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameSosooo.swift; sourceTree = "<group>"; };
 		E94DE4292C1368D300BA3C16 /* demboJeuCommencer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demboJeuCommencer.swift; sourceTree = "<group>"; };
 		E94DE42B2C1369B000BA3C16 /* classeDembo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classeDembo.swift; sourceTree = "<group>"; };
+		E94DE42D2C136A0800BA3C16 /* jeuCompteurDembo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jeuCompteurDembo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 				768D927C2C0DF14400595B26 /* Preview Content */,
 				E94DE4292C1368D300BA3C16 /* demboJeuCommencer.swift */,
 				E94DE42B2C1369B000BA3C16 /* classeDembo.swift */,
+				E94DE42D2C136A0800BA3C16 /* jeuCompteurDembo.swift */,
 			);
 			path = ludik;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 			files = (
 				766428E42C136004008D3B84 /* ecranAcceuilMain.swift in Sources */,
 				766428E62C1360C8008D3B84 /* CreationdeCompte.swift in Sources */,
+				E94DE42E2C136A0800BA3C16 /* jeuCompteurDembo.swift in Sources */,
 				766428E82C13613A008D3B84 /* JeuxMathAdder.swift in Sources */,
 				766428E02C135E7E008D3B84 /* connexionCompteMain.swift in Sources */,
 				766428DE2C135DD7008D3B84 /* connexionMain.swift in Sources */,
