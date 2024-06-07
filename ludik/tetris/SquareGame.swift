@@ -10,7 +10,7 @@ import Combine
 import SwiftUI
 
 struct SquareGame {
-    
+    // creation des carrées individuelle qui vont composé les pieces
     var x: Int
     var y: Int
     var occupied: Bool = false

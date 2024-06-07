@@ -9,6 +9,10 @@ import SwiftUI
 
 struct connexion: View {
     
+    @AppStorage("username") var username = "Dempaso"
+    @AppStorage("mail") var mail = "ludik@gmail.com"
+    @AppStorage("mdp") var mdp = "ludik10@"
+    
     private let startColor: Color = .orange
     private let endColor: Color = .red
     @State private var mailInput = ""
@@ -17,10 +21,13 @@ struct connexion: View {
     @State private var confMdpInput = ""
 
     var body: some View {
+        
+        
+        
         ZStack {
         LinearGradient(colors: [startColor, endColor], startPoint: .center, endPoint: .bottom)
             .edgesIgnoringSafeArea(.all)
-       
+
             
         Image("GABI 2")
                 .position(x: 82, y: 200)
@@ -29,29 +36,28 @@ struct connexion: View {
                 ZStack {
                     
                 Image("Rectangle 63")
-                Text("Création de compte")
+        Text("Création de compte")
                     .padding(.bottom)
                         .font(.custom("Ranchers", fixedSize: 23))
                             .foregroundStyle(.white)
               }
 
                 ZStack {
-                    
-                      
+                
                     Image("Rectangle 61")
                         .position(x:130, y: 55)
                     TextField("Mail :", text: $mailInput)
                         .font(.custom("Ranchers", fixedSize: 18))
                         .foregroundStyle(.white)
                         .padding()
-                     
+
                         
                     }
 
                 ZStack {
                     Image("Rectangle 61")
                         .position(x:130, y: 55)
-                    TextField("Identifiant :", text: $identifInput)
+         TextField("Identifiant :", text: $identifInput)
                         .font(.custom("Ranchers", fixedSize: 18))
                         .foregroundStyle(.white)
                         .padding()
@@ -73,7 +79,9 @@ struct connexion: View {
                         .padding()
                 }
                 ZStack {
-                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                    Button(action: {
+                       
+                    }, label: {
                         ZStack {
                             
                        
@@ -102,7 +110,9 @@ struct connexion: View {
             }.position(x:195, y : 400)
           }
         }
+   
       }
+
 
 #Preview {
     connexion()

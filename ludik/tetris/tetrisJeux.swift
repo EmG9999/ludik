@@ -39,12 +39,15 @@ struct tetrisJeux: View {
     var board: some View {
         VStack(spacing: spacing) {
             
-        
-       
         ForEach(0..<viewModel.height, id: \.self) { y in HStack(spacing: spacing) {
             ForEach(0..<viewModel.width, id: \.self) {
                 x in 
-                let color = Color.orange.opacity(0.3)
+               
+                
+                let squareGame = viewModel.getSquareGame(x: x, y: y)
+                let color = squareGame?.color ??
+                Color.orange.opacity(0.2)
+                
                 Rectangle()
                     .aspectRatio(1.0, contentMode: .fit)
                     .foregroundColor(color)
