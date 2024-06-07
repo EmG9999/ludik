@@ -17,7 +17,6 @@
 		766428D32C1339EA008D3B84 /* connexionCompte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766428D22C1339EA008D3B84 /* connexionCompte.swift */; };
 		766428D52C133CAF008D3B84 /* nouveauxjeux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766428D42C133CAF008D3B84 /* nouveauxjeux.swift */; };
 		766428D82C133DF6008D3B84 /* reponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766428D72C133DF6008D3B84 /* reponse.swift */; };
-		766428DA2C133E81008D3B84 /* math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766428D92C133E81008D3B84 /* math.swift */; };
 		768D92752C0DF14400595B26 /* ludikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D92742C0DF14400595B26 /* ludikApp.swift */; };
 		768D92772C0DF14400595B26 /* ContentViewEM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D92762C0DF14400595B26 /* ContentViewEM.swift */; };
 		768D92792C0DF14400595B26 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D92782C0DF14400595B26 /* Item.swift */; };
@@ -57,7 +56,6 @@
 		766428D22C1339EA008D3B84 /* connexionCompte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = connexionCompte.swift; sourceTree = "<group>"; };
 		766428D42C133CAF008D3B84 /* nouveauxjeux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nouveauxjeux.swift; sourceTree = "<group>"; };
 		766428D72C133DF6008D3B84 /* reponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reponse.swift; sourceTree = "<group>"; };
-		766428D92C133E81008D3B84 /* math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = math.swift; sourceTree = "<group>"; };
 		768D92712C0DF14400595B26 /* ludik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ludik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		768D92742C0DF14400595B26 /* ludikApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ludikApp.swift; sourceTree = "<group>"; };
 		768D92762C0DF14400595B26 /* ContentViewEM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewEM.swift; sourceTree = "<group>"; };
@@ -101,7 +99,6 @@
 			children = (
 				766428D42C133CAF008D3B84 /* nouveauxjeux.swift */,
 				766428D72C133DF6008D3B84 /* reponse.swift */,
-				766428D92C133E81008D3B84 /* math.swift */,
 			);
 			path = "New Group";
 			sourceTree = "<group>";
@@ -305,7 +302,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				766428DA2C133E81008D3B84 /* math.swift in Sources */,
 				768D92772C0DF14400595B26 /* ContentViewEM.swift in Sources */,
 				766428D32C1339EA008D3B84 /* connexionCompte.swift in Sources */,
 				768D92792C0DF14400595B26 /* Item.swift in Sources */,

@@ -25,8 +25,8 @@ struct nouveauxjeux: View {
                
                VStack {
                    Text("\(firstNumber) + \(secondNumber)")
-                       .font(.largeTitle)
-                       .bold()
+                       .font(.custom("Ranchers", size: 40))
+                     
                    
                    HStack {
                        ForEach(0..<2) {index in
@@ -59,9 +59,18 @@ struct nouveauxjeux: View {
        
        func answerIsCorrect(answer: Int){
            if answer == correctAnswer {
-               self.score += 1
+               score += 1
            } else {
-               self.score -= 1
+               score -= 1
+           }
+           if score > 10 {
+               difficulté += 100 // la diff s'incremente a chaque serie de 10 rep
+           }
+           if score > 20 {
+               difficulté += 800
+           }
+           if score > 20 {
+               difficulté += 9000
            }
        }
        
@@ -69,18 +78,19 @@ struct nouveauxjeux: View {
        func generateAnswers(){
            firstNumber = Int.random(in: 0...(difficulté/2))
            secondNumber = Int.random(in: 0...(difficulté/2))
-           var answerList = [Int]()
+           var answerList = [Int]() // genere une liste vide des reponses possibles
            
            correctAnswer = firstNumber + secondNumber
            
-           for i in 0...2 {
+           for _ in 0...2 {
                answerList.append(Int.random(in: 0...difficulté))
            }
            
-           answerList.append(correctAnswer)
+           answerList.append(correctAnswer) // met la bonne reponses dans la liste
            
-           choiceArray = answerList.shuffled()
+           choiceArray = answerList.shuffled() // met la bonne reponses dans un endroit aleatoire
        }
+   
    }
 
 

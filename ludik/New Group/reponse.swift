@@ -12,6 +12,7 @@ struct AnswerButton: View {
     
     var body: some View {
         Text("\(number)")
+            .font(.custom("Ranchers", size: 40))
         .frame(width: 110, height: 110)
         .font(.system(size: 40, weight: .bold))
         .foregroundColor(Color.white)

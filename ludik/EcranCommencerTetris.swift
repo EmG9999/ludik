@@ -23,10 +23,12 @@ struct EcranCommencerTetris: View {
                         .edgesIgnoringSafeArea(.all)
                     
                     VStack {
-                        ZStack {
-                            Image("Rectangle 61-2")
-                            Image("Geo Block")
-                        }.position(x: 100, y: 200)
+                        ZStack{
+                            Circle()
+                            Text("Math  Adder")
+                                .font(.custom("Ranchers", size: 70))
+                                .foregroundStyle(.white)
+                        }
                         ZStack {
                             Image("Rectangle 64-2")
                             Image("Commencer")
