@@ -17,6 +17,8 @@ extension Color {
     static let backHomeRed = Color(red: 243/255, green: 74/255, blue: 85/255)
 }
 
+//Test
+
 struct MenuCandySoso: View {
     var body: some View {
         NavigationStack{
