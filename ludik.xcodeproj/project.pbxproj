@@ -26,6 +26,7 @@
 		E94DE4262C1350D300BA3C16 /* MenuCandySosooo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DE4252C1350D300BA3C16 /* MenuCandySosooo.swift */; };
 		E94DE4282C13511E00BA3C16 /* gameSosooo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DE4272C13511E00BA3C16 /* gameSosooo.swift */; };
 		E94DE42A2C1368D300BA3C16 /* demboJeuCommencer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DE4292C1368D300BA3C16 /* demboJeuCommencer.swift */; };
+		E94DE42C2C1369B000BA3C16 /* classeDembo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DE42B2C1369B000BA3C16 /* classeDembo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		E94DE4252C1350D300BA3C16 /* MenuCandySosooo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCandySosooo.swift; sourceTree = "<group>"; };
 		E94DE4272C13511E00BA3C16 /* gameSosooo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameSosooo.swift; sourceTree = "<group>"; };
 		E94DE4292C1368D300BA3C16 /* demboJeuCommencer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demboJeuCommencer.swift; sourceTree = "<group>"; };
+		E94DE42B2C1369B000BA3C16 /* classeDembo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classeDembo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 				61EAE9102C0F33E700D7564E /* Ranchers-Regular.ttf */,
 				768D927C2C0DF14400595B26 /* Preview Content */,
 				E94DE4292C1368D300BA3C16 /* demboJeuCommencer.swift */,
+				E94DE42B2C1369B000BA3C16 /* classeDembo.swift */,
 			);
 			path = ludik;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				E94DE42A2C1368D300BA3C16 /* demboJeuCommencer.swift in Sources */,
 				768D92792C0DF14400595B26 /* Item.swift in Sources */,
 				768D92752C0DF14400595B26 /* ludikApp.swift in Sources */,
+				E94DE42C2C1369B000BA3C16 /* classeDembo.swift in Sources */,
 				E94DE4262C1350D300BA3C16 /* MenuCandySosooo.swift in Sources */,
 				E94DE4282C13511E00BA3C16 /* gameSosooo.swift in Sources */,
 				766428EA2C13618C008D3B84 /* reponseMain.swift in Sources */,
