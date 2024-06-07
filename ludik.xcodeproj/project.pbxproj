@@ -12,6 +12,7 @@
 		766428DE2C135DD7008D3B84 /* connexionMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766428DD2C135DD7008D3B84 /* connexionMain.swift */; };
 		766428E02C135E7E008D3B84 /* connexionCompteMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766428DF2C135E7E008D3B84 /* connexionCompteMain.swift */; };
 		766428E22C135F41008D3B84 /* CommencerMathAdder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766428E12C135F41008D3B84 /* CommencerMathAdder.swift */; };
+		766428E42C136004008D3B84 /* ecranAcceuilMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766428E32C136004008D3B84 /* ecranAcceuilMain.swift */; };
 		768D92752C0DF14400595B26 /* ludikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D92742C0DF14400595B26 /* ludikApp.swift */; };
 		768D92792C0DF14400595B26 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D92782C0DF14400595B26 /* Item.swift */; };
 		768D927B2C0DF14400595B26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 768D927A2C0DF14400595B26 /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 		766428DD2C135DD7008D3B84 /* connexionMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = connexionMain.swift; sourceTree = "<group>"; };
 		766428DF2C135E7E008D3B84 /* connexionCompteMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = connexionCompteMain.swift; sourceTree = "<group>"; };
 		766428E12C135F41008D3B84 /* CommencerMathAdder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommencerMathAdder.swift; sourceTree = "<group>"; };
+		766428E32C136004008D3B84 /* ecranAcceuilMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ecranAcceuilMain.swift; sourceTree = "<group>"; };
 		768D92712C0DF14400595B26 /* ludik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ludik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		768D92742C0DF14400595B26 /* ludikApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ludikApp.swift; sourceTree = "<group>"; };
 		768D92782C0DF14400595B26 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				61EAE90F2C0F235D00D7564E /* Info.plist */,
 				768D92742C0DF14400595B26 /* ludikApp.swift */,
 				766428DF2C135E7E008D3B84 /* connexionCompteMain.swift */,
+				766428E32C136004008D3B84 /* ecranAcceuilMain.swift */,
 				766428E12C135F41008D3B84 /* CommencerMathAdder.swift */,
 				766428DD2C135DD7008D3B84 /* connexionMain.swift */,
 				766428DB2C135C89008D3B84 /* profilMain.swift */,
@@ -281,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				766428E42C136004008D3B84 /* ecranAcceuilMain.swift in Sources */,
 				766428E02C135E7E008D3B84 /* connexionCompteMain.swift in Sources */,
 				766428DE2C135DD7008D3B84 /* connexionMain.swift in Sources */,
 				768D92792C0DF14400595B26 /* Item.swift in Sources */,
