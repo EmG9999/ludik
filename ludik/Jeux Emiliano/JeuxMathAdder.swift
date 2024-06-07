@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-sstruct nouveauxjeux: View {
+struct nouveauxjeux: View {
     @State private var correctAnswer = 0
        @State private var choiceArray : [Int] = [0, 1, 2, 3]
        @State private var firstNumber = 0
