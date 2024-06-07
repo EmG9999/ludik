@@ -29,6 +29,7 @@
 		E94DE42C2C1369B000BA3C16 /* classeDembo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DE42B2C1369B000BA3C16 /* classeDembo.swift */; };
 		E94DE42E2C136A0800BA3C16 /* jeuCompteurDembo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DE42D2C136A0800BA3C16 /* jeuCompteurDembo.swift */; };
 		E94DE4302C136AF500BA3C16 /* jeuEmiliano.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DE42F2C136AF500BA3C16 /* jeuEmiliano.swift */; };
+		E94DE4322C136C0300BA3C16 /* matierePatrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DE4312C136C0300BA3C16 /* matierePatrice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		E94DE42B2C1369B000BA3C16 /* classeDembo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classeDembo.swift; sourceTree = "<group>"; };
 		E94DE42D2C136A0800BA3C16 /* jeuCompteurDembo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jeuCompteurDembo.swift; sourceTree = "<group>"; };
 		E94DE42F2C136AF500BA3C16 /* jeuEmiliano.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jeuEmiliano.swift; sourceTree = "<group>"; };
+		E94DE4312C136C0300BA3C16 /* matierePatrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = matierePatrice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 				E94DE4292C1368D300BA3C16 /* demboJeuCommencer.swift */,
 				E94DE42B2C1369B000BA3C16 /* classeDembo.swift */,
 				E94DE42D2C136A0800BA3C16 /* jeuCompteurDembo.swift */,
+				E94DE4312C136C0300BA3C16 /* matierePatrice.swift */,
 			);
 			path = ludik;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 				766428EA2C13618C008D3B84 /* reponseMain.swift in Sources */,
 				766428E22C135F41008D3B84 /* CommencerMathAdder.swift in Sources */,
 				E94DE4302C136AF500BA3C16 /* jeuEmiliano.swift in Sources */,
+				E94DE4322C136C0300BA3C16 /* matierePatrice.swift in Sources */,
 				766428DC2C135C89008D3B84 /* profilMain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
