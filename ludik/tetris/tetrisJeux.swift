@@ -61,7 +61,7 @@ struct tetrisJeux: View {
         }
 
     }
-    
+   
 }
 
 struct tetrisJeux_Preview: PreviewProvider {

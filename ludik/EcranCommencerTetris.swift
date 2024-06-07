@@ -15,7 +15,7 @@ struct EcranCommencerTetris: View {
 
     
     var body: some View {
-        ScrollView() {
+     
             
             VStack {
                 ZStack {
@@ -50,7 +50,7 @@ struct EcranCommencerTetris: View {
                 }
                 
             }
-      }
+      
     }
   }
 
