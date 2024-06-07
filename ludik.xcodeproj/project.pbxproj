@@ -14,6 +14,7 @@
 		766428E22C135F41008D3B84 /* CommencerMathAdder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766428E12C135F41008D3B84 /* CommencerMathAdder.swift */; };
 		766428E42C136004008D3B84 /* ecranAcceuilMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766428E32C136004008D3B84 /* ecranAcceuilMain.swift */; };
 		766428E62C1360C8008D3B84 /* CreationdeCompte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766428E52C1360C8008D3B84 /* CreationdeCompte.swift */; };
+		766428E82C13613A008D3B84 /* JeuxMathAdder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766428E72C13613A008D3B84 /* JeuxMathAdder.swift */; };
 		768D92752C0DF14400595B26 /* ludikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D92742C0DF14400595B26 /* ludikApp.swift */; };
 		768D92792C0DF14400595B26 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D92782C0DF14400595B26 /* Item.swift */; };
 		768D927B2C0DF14400595B26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 768D927A2C0DF14400595B26 /* Assets.xcassets */; };
@@ -51,6 +52,7 @@
 		766428E12C135F41008D3B84 /* CommencerMathAdder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommencerMathAdder.swift; sourceTree = "<group>"; };
 		766428E32C136004008D3B84 /* ecranAcceuilMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ecranAcceuilMain.swift; sourceTree = "<group>"; };
 		766428E52C1360C8008D3B84 /* CreationdeCompte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreationdeCompte.swift; sourceTree = "<group>"; };
+		766428E72C13613A008D3B84 /* JeuxMathAdder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JeuxMathAdder.swift; sourceTree = "<group>"; };
 		768D92712C0DF14400595B26 /* ludik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ludik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		768D92742C0DF14400595B26 /* ludikApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ludikApp.swift; sourceTree = "<group>"; };
 		768D92782C0DF14400595B26 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				768D92782C0DF14400595B26 /* Item.swift */,
 				E94DE4252C1350D300BA3C16 /* MenuCandySosooo.swift */,
 				E94DE4272C13511E00BA3C16 /* gameSosooo.swift */,
+				766428E72C13613A008D3B84 /* JeuxMathAdder.swift */,
 				768D927A2C0DF14400595B26 /* Assets.xcassets */,
 				61EAE9102C0F33E700D7564E /* Ranchers-Regular.ttf */,
 				768D927C2C0DF14400595B26 /* Preview Content */,
@@ -289,6 +292,7 @@
 			files = (
 				766428E42C136004008D3B84 /* ecranAcceuilMain.swift in Sources */,
 				766428E62C1360C8008D3B84 /* CreationdeCompte.swift in Sources */,
+				766428E82C13613A008D3B84 /* JeuxMathAdder.swift in Sources */,
 				766428E02C135E7E008D3B84 /* connexionCompteMain.swift in Sources */,
 				766428DE2C135DD7008D3B84 /* connexionMain.swift in Sources */,
 				768D92792C0DF14400595B26 /* Item.swift in Sources */,
