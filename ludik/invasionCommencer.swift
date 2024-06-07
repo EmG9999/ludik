@@ -25,7 +25,7 @@ struct ContentView: View {
             
             VStack {//Grande VStak Début
                 
-                    Text("Invasion des mots")
+                    Text("Invasion des chiffres")
                         .font(.custom("Ranchers-Regular", size: 30))
                         .foregroundStyle(.green)
                         .font(.title)
@@ -34,7 +34,7 @@ struct ContentView: View {
                     
                     
                 HStack{
-                    Text("manger ")
+                    Text("1 ")
                         .font(.custom("Ranchers-Regular", size: 20))
                         .foregroundStyle(.white)
                         .font(.title)
@@ -42,7 +42,7 @@ struct ContentView: View {
                     
                     
                         
-                        Text("manger ")
+                        Text("2")
                             .font(.custom("Ranchers-Regular", size: 20))
                             .foregroundStyle(.white)
                             .font(.title)
@@ -51,7 +51,7 @@ struct ContentView: View {
                         
                         
                     
-                    Text("manger ")
+                    Text("3 ")
                         .font(.custom("Ranchers-Regular", size: 20))
                         .foregroundStyle(.white)
                         .font(.title)
@@ -79,22 +79,32 @@ struct ContentView: View {
                         .frame(width: 10, height: 40)
                 }
                 
-                ZStack{
-                    
-                    RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*/25.0/*@END_MENU_TOKEN@*/)
-                        .frame(width: 300, height: 100)
+                Button(
+                    action: {
+                        // do something
+                    },
+                    label: {  ZStack{
                         
-                    
-                    VStack{
-                        Text("Commencer")
-                            .foregroundStyle(.green)
-                            .font(.title)
-                            .bold()
-                            //.padding -> fait le padding et le margin
+                        
+                        
+                        Text("COMMENCER")
+                                                    .font(.custom("Ranchers-Regular", size: 50))
+                                                    .padding()
+                                                    .background(Color.black)
+                                                    .foregroundStyle(
+                                                        LinearGradient(gradient: Gradient(colors: [.green, .green]), startPoint: .topTrailing, endPoint: .topLeading))
+                                                    .shadow(color: .black, radius: 5, x: 2, y: 3)
+                                                    .border(Color.black)
+                                                    .cornerRadius(20)
+                                                    .shadow(color: .black, radius: 2, x: 2, y: 3)
+                                //.padding -> fait le padding et le margin
+                        }
+                        
+                        
                     }
-                    
-                    
-                }
+                )
+                
+               
                 
                 
                 VStack{
