@@ -25,6 +25,7 @@
 		768D92942C0DF14500595B26 /* ludikUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D92932C0DF14500595B26 /* ludikUITestsLaunchTests.swift */; };
 		E94DE4262C1350D300BA3C16 /* MenuCandySosooo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DE4252C1350D300BA3C16 /* MenuCandySosooo.swift */; };
 		E94DE4282C13511E00BA3C16 /* gameSosooo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DE4272C13511E00BA3C16 /* gameSosooo.swift */; };
+		E94DE42A2C1368D300BA3C16 /* demboJeuCommencer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DE4292C1368D300BA3C16 /* demboJeuCommencer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		768D92932C0DF14500595B26 /* ludikUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ludikUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E94DE4252C1350D300BA3C16 /* MenuCandySosooo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCandySosooo.swift; sourceTree = "<group>"; };
 		E94DE4272C13511E00BA3C16 /* gameSosooo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameSosooo.swift; sourceTree = "<group>"; };
+		E94DE4292C1368D300BA3C16 /* demboJeuCommencer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demboJeuCommencer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 				768D927A2C0DF14400595B26 /* Assets.xcassets */,
 				61EAE9102C0F33E700D7564E /* Ranchers-Regular.ttf */,
 				768D927C2C0DF14400595B26 /* Preview Content */,
+				E94DE4292C1368D300BA3C16 /* demboJeuCommencer.swift */,
 			);
 			path = ludik;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 				766428E82C13613A008D3B84 /* JeuxMathAdder.swift in Sources */,
 				766428E02C135E7E008D3B84 /* connexionCompteMain.swift in Sources */,
 				766428DE2C135DD7008D3B84 /* connexionMain.swift in Sources */,
+				E94DE42A2C1368D300BA3C16 /* demboJeuCommencer.swift in Sources */,
 				768D92792C0DF14400595B26 /* Item.swift in Sources */,
 				768D92752C0DF14400595B26 /* ludikApp.swift in Sources */,
 				E94DE4262C1350D300BA3C16 /* MenuCandySosooo.swift in Sources */,
