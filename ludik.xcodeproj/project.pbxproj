@@ -7,18 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		61759ED92C13031500B42653 /* frameClasse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61759ED82C13031500B42653 /* frameClasse.swift */; };
-		61759EDD2C13131A00B42653 /* jeuxCompteur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61759EDC2C13131A00B42653 /* jeuxCompteur.swift */; };
 		61EAE9112C0F33E700D7564E /* Ranchers-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61EAE9102C0F33E700D7564E /* Ranchers-Regular.ttf */; };
-		61EAE9132C10666200D7564E /* invasionQuiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EAE9122C10666200D7564E /* invasionQuiter.swift */; };
 		768D92752C0DF14400595B26 /* ludikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D92742C0DF14400595B26 /* ludikApp.swift */; };
-		768D92772C0DF14400595B26 /* invasionCommencer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D92762C0DF14400595B26 /* invasionCommencer.swift */; };
 		768D92792C0DF14400595B26 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D92782C0DF14400595B26 /* Item.swift */; };
 		768D927B2C0DF14400595B26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 768D927A2C0DF14400595B26 /* Assets.xcassets */; };
 		768D927E2C0DF14400595B26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 768D927D2C0DF14400595B26 /* Preview Assets.xcassets */; };
 		768D92882C0DF14400595B26 /* ludikTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D92872C0DF14400595B26 /* ludikTests.swift */; };
 		768D92922C0DF14500595B26 /* ludikUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D92912C0DF14500595B26 /* ludikUITests.swift */; };
 		768D92942C0DF14500595B26 /* ludikUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D92932C0DF14500595B26 /* ludikUITestsLaunchTests.swift */; };
+		E94DE4262C1350D300BA3C16 /* MenuCandySosooo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DE4252C1350D300BA3C16 /* MenuCandySosooo.swift */; };
+		E94DE4282C13511E00BA3C16 /* gameSosooo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DE4272C13511E00BA3C16 /* gameSosooo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,14 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		61759ED82C13031500B42653 /* frameClasse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frameClasse.swift; sourceTree = "<group>"; };
-		61759EDC2C13131A00B42653 /* jeuxCompteur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jeuxCompteur.swift; sourceTree = "<group>"; };
 		61EAE90F2C0F235D00D7564E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		61EAE9102C0F33E700D7564E /* Ranchers-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ranchers-Regular.ttf"; sourceTree = "<group>"; };
-		61EAE9122C10666200D7564E /* invasionQuiter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = invasionQuiter.swift; sourceTree = "<group>"; };
 		768D92712C0DF14400595B26 /* ludik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ludik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		768D92742C0DF14400595B26 /* ludikApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ludikApp.swift; sourceTree = "<group>"; };
-		768D92762C0DF14400595B26 /* invasionCommencer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = invasionCommencer.swift; sourceTree = "<group>"; };
 		768D92782C0DF14400595B26 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		768D927A2C0DF14400595B26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		768D927D2C0DF14400595B26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -55,6 +49,8 @@
 		768D928D2C0DF14500595B26 /* ludikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ludikUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		768D92912C0DF14500595B26 /* ludikUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ludikUITests.swift; sourceTree = "<group>"; };
 		768D92932C0DF14500595B26 /* ludikUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ludikUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E94DE4252C1350D300BA3C16 /* MenuCandySosooo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCandySosooo.swift; sourceTree = "<group>"; };
+		E94DE4272C13511E00BA3C16 /* gameSosooo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameSosooo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,11 +103,9 @@
 			children = (
 				61EAE90F2C0F235D00D7564E /* Info.plist */,
 				768D92742C0DF14400595B26 /* ludikApp.swift */,
-				768D92762C0DF14400595B26 /* invasionCommencer.swift */,
-				61EAE9122C10666200D7564E /* invasionQuiter.swift */,
 				768D92782C0DF14400595B26 /* Item.swift */,
-				61759ED82C13031500B42653 /* frameClasse.swift */,
-				61759EDC2C13131A00B42653 /* jeuxCompteur.swift */,
+				E94DE4252C1350D300BA3C16 /* MenuCandySosooo.swift */,
+				E94DE4272C13511E00BA3C16 /* gameSosooo.swift */,
 				768D927A2C0DF14400595B26 /* Assets.xcassets */,
 				61EAE9102C0F33E700D7564E /* Ranchers-Regular.ttf */,
 				768D927C2C0DF14400595B26 /* Preview Content */,
@@ -275,12 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				768D92772C0DF14400595B26 /* invasionCommencer.swift in Sources */,
 				768D92792C0DF14400595B26 /* Item.swift in Sources */,
-				61759EDD2C13131A00B42653 /* jeuxCompteur.swift in Sources */,
-				61759ED92C13031500B42653 /* frameClasse.swift in Sources */,
-				61EAE9132C10666200D7564E /* invasionQuiter.swift in Sources */,
 				768D92752C0DF14400595B26 /* ludikApp.swift in Sources */,
+				E94DE4262C1350D300BA3C16 /* MenuCandySosooo.swift in Sources */,
+				E94DE4282C13511E00BA3C16 /* gameSosooo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
