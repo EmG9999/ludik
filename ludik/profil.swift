@@ -10,21 +10,32 @@ struct profile {
     var pseudo: String
     var niveau: Int
     var avatar: String
-    var badge: badges
+    var badges: [Badge]
+    
+   
 }
-struct badges {
-    var badge1 = "Badge_01"
-    var badge2 = "Badge_02"
-    var badge3 = "Badge_03"
-    var badge4 = "Badge_04"
-    var badge5 = "Badge_05"
-    var badge6 = "Badge_06"
-    var badge7 = "Badge_07"
-    var badge8 = "Badge_08"
-    var badge9 = "Badge_09"
+struct Badge: Identifiable {
+    var id = UUID()
+    var number: String
+    
+    var image : String{
+        return "Badge_"+number
+    }
+   
 }
+
+
 struct profil: View {
-    let user = profile(pseudo: "DEMPASO", niveau: 35, avatar: "GABI 1", badge: badges())
+    
+    let user = profile(pseudo: "DEMPASO", niveau: 35, avatar: "GABI 1",
+                       badges : [
+                        Badge(number: "01"),
+                        Badge(number: "04"),
+                        Badge(number: "06"),
+                        Badge(number: "09")
+         ]
+                       )
+    
     private let startColor: Color = .orange
     private let endColor: Color = .red
     
@@ -61,21 +72,16 @@ struct profil: View {
                         .foregroundStyle(.yellow)
                 }
                 Spacer()
-                VStack {
-                    HStack {
-                        Image(user.badge.badge1)
-                        Image(user.badge.badge2)
-                        Image(user.badge.badge3)
-                        Image(user.badge.badge4)
+                Text("BADGES")
+                    .font(.custom("Ranchers-Regular", size: 30.0))
+                HStack {
+                    
+                ForEach(user.badges) { badge in
+                    Image(badge.image)
                     }
-                    HStack {
-                        Image(user.badge.badge5)
-                        Image(user.badge.badge6)
-                        Image(user.badge.badge7)
-                        Image(user.badge.badge8)
-                    }
-                    Image(user.badge.badge9)
+                   
                 }
+                Spacer()
             }
         }
     }
