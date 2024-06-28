@@ -6,6 +6,11 @@
 //
 
 import SwiftUI
+/**
+ Documentation de la structure Classe.
+ 
+ Cette structure représentente un identifiable de type Classe avec des focntionnalité spécifique
+ */
 
 struct Classe: Identifiable{
     var id = UUID()
