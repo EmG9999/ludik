@@ -6,18 +6,26 @@
 //
 
 import SwiftUI
+/// structure qui cree les caracteristiques du profile
 struct profile {
+    /// pseudo de l'utilisateur
     var pseudo: String
+    /// niveau d'experience dans le jeu
     var niveau: Int
+    /// avatar de l'utilisateur
     var avatar: String
+    /// tout les badges qu'e l'utilisateur a gagné
     var badges: [Badge]
     
    
 }
+/// structure qui cree les badges
 struct Badge: Identifiable {
+    /// numero d'identifiction de chaque badge
     var id = UUID()
+    /// le numero de badge qui correspond a l'asset
     var number: String
-    
+    /// variable pour appeler les asset badge
     var image : String{
         return "Badge_"+number
     }
