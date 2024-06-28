@@ -11,7 +11,7 @@ struct EcranCommencerTetris: View {
     private let startColor: Color = .orange
     private let endColor: Color = .red
     
-    
+   
 
     
     var body: some View {
