@@ -2,17 +2,18 @@
 //  Word.swift
 //  ludik
 //
-//  Created by Apprenant 123 on 28/06/2024.
+//  Created by Apprenant 123 on 27/06/2024.
 //
 
-import SwiftUI
+import Foundation
 
-struct Word: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
 
-#Preview {
-    Word()
+struct Word{
+    /// Image associée au mot
+    var image: String
+    /// Orthographe Correct
+    var correct: String
+    /// Réponses
+    var rep: [String]
+    
 }
