@@ -13,6 +13,7 @@ import SwiftUI
 struct gameSosooo: View {
     @State private var choixNombre = ""
     @State private var correctIncorrect = ""
+    @State var pointUtil = 0
     
     
     let nombrAleatoire = Int.random(in: 1...50)
@@ -42,6 +43,14 @@ struct gameSosooo: View {
                 
                 
         VStack{
+            
+            
+            Text("\(utilisateur1.nomUtilisateur) : \(pointUtil)")
+                .font(.custom("Ranchers-Regular", size: 25))
+            
+            
+            
+            
                 TextField("Entrez un nombre", text: $choixNombre)
                         .font(.custom("", size: 30))
                         .textFieldStyle(RoundedBorderTextFieldStyle())
@@ -61,6 +70,7 @@ struct gameSosooo: View {
                     if let guess = Int(choixNombre) {
                                 if guess == nombrAleatoire {
                                 correctIncorrect = "Bravooooo"
+                                    pointUtil += 1
                             } else if guess < nombrAleatoire {
                             correctIncorrect = "Le chiffre est plus grand"
                             } else {
