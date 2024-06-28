@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		616C27D22C2EB1F9003C1E4B /* StructDembo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616C27D12C2EB1F9003C1E4B /* StructDembo.swift */; };
 		61EAE9112C0F33E700D7564E /* Ranchers-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61EAE9102C0F33E700D7564E /* Ranchers-Regular.ttf */; };
 		766428DC2C135C89008D3B84 /* profilMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766428DB2C135C89008D3B84 /* profilMain.swift */; };
 		766428DE2C135DD7008D3B84 /* connexionMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766428DD2C135DD7008D3B84 /* connexionMain.swift */; };
@@ -54,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		616C27D12C2EB1F9003C1E4B /* StructDembo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructDembo.swift; sourceTree = "<group>"; };
 		61EAE90F2C0F235D00D7564E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		61EAE9102C0F33E700D7564E /* Ranchers-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ranchers-Regular.ttf"; sourceTree = "<group>"; };
 		766428DB2C135C89008D3B84 /* profilMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profilMain.swift; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 				768D927C2C0DF14400595B26 /* Preview Content */,
 				E94DE4292C1368D300BA3C16 /* demboJeuCommencer.swift */,
 				E94DE42B2C1369B000BA3C16 /* classeDembo.swift */,
+				616C27D12C2EB1F9003C1E4B /* StructDembo.swift */,
 				E94DE42D2C136A0800BA3C16 /* jeuCompteurDembo.swift */,
 				E94DE4312C136C0300BA3C16 /* matierePatrice.swift */,
 				E94DE4332C136C7900BA3C16 /* jeuQuizzPatrice2.swift */,
@@ -330,6 +333,7 @@
 			files = (
 				766428E42C136004008D3B84 /* ecranAcceuilMain.swift in Sources */,
 				766428E62C1360C8008D3B84 /* CreationdeCompte.swift in Sources */,
+				616C27D22C2EB1F9003C1E4B /* StructDembo.swift in Sources */,
 				E94DE42E2C136A0800BA3C16 /* jeuCompteurDembo.swift in Sources */,
 				E97B80B52C2EA161005A9F10 /* utilisateurSoso.swift in Sources */,
 				E94DE4342C136C7900BA3C16 /* jeuQuizzPatrice2.swift in Sources */,
