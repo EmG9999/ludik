@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// couleur de fond d'écran de l'application
 extension Color{
     // Couleurs fon écran appli
     static let fondEcranColor1 = Color(red: 255/255, green: 166/255, blue: 41/255)
@@ -21,6 +22,9 @@ extension Color{
 
 struct Frame3Matiere: View {
   
+    /** création d'un tableau qui va stocker chaque niveau en cohérence avec sa couleur
+    
+     */
     @State private var classes = [
         Classe (niveau: "CP",  couleur: .green),
         Classe(niveau: "CE1", couleur: .purple),
@@ -31,6 +35,7 @@ struct Frame3Matiere: View {
     
     var body: some View {
         ZStack {
+            
             // Couleur fond d'écran
             LinearGradient(colors:[.fondEcranColor1, .fondEcranColor2], startPoint: .top, endPoint: .bottom).edgesIgnoringSafeArea(.all)
             VStack {

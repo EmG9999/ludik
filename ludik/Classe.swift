@@ -13,7 +13,10 @@ import SwiftUI
  */
 
 struct Classe: Identifiable{
+    ///  UUID pour avoir un identifiant unique
     var id = UUID()
+    /// Niveau de la classe
     var niveau: String
+    ///La couleiur par niveau 
     var couleur: Color
 }
