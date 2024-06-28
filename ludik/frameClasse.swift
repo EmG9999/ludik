@@ -17,7 +17,18 @@ extension Color{
     static let geoColor2 = Color(red: 200/255, green: 120/255, blue: 0/255)
 }
 
+
+
 struct Frame3Matiere: View {
+  
+    @State private var classes = [
+        Classe (niveau: "CP",  couleur: .green),
+        Classe(niveau: "CE1", couleur: .purple),
+        Classe(niveau: "CE2", couleur: .blue),
+        Classe(niveau: "CM1", couleur: .red),
+        Classe(niveau: "CM2", couleur: .yellow)
+    ]
+    
     var body: some View {
         ZStack {
             // Couleur fond d'écran
@@ -75,103 +86,31 @@ struct Frame3Matiere: View {
                     .padding(.bottom,200)
 
                 }
-                //Button Francais
-                HStack{
-                    Button(
-                        action: {
-                            // do something
-                        },
-                        label: { ZStack {
-                            Rectangle()
-                                .frame(width: 150,height: 100)
-                                .foregroundColor(.red)
-                                .cornerRadius(20)
-                                .overlay(
-                                    RoundedRectangle(cornerRadius: 20)
-                                        .stroke(.gray, lineWidth: 3))
-                            Text("CM1")
-                                .font(.custom("Ranchers-Regular", size: 70))
-                            .foregroundColor(.white)}
-                        }
-                    )
-                    .padding(.trailing,10)
-                    //Button Géographie
-                    Button(
-                        action: {
-                            // do something
-                        },
-                        label: { ZStack {
-                            Rectangle()
-                                .frame(width: 150,height: 100)
-                                .foregroundColor(.yellow)
-                                .cornerRadius(20)
-                                .overlay(
-                                    RoundedRectangle(cornerRadius: 20)
-                                        .stroke(.gray, lineWidth: 3))
-                            Text("CM2")
-                                .font(.custom("Ranchers-Regular", size: 70))
-                                .foregroundColor(.white)}
-                        }
-                    )
-                }
-                HStack{
-                    //Button Sciences
-                    Button(
-                        action: {
-                            // do something
-                        },
-                        label: {ZStack {
-                            Rectangle()
-                                .frame(width: 140,height: 100)
-                                .foregroundColor(.purple)
-                                .cornerRadius(20)
-                                .overlay(
-                                    RoundedRectangle(cornerRadius: 20)
-                                        .stroke(.gray, lineWidth: 3))
-                            Text("CE1")
-                                .font(.custom("Ranchers-Regular", size: 70))
-                            .foregroundColor(.white)}
-                        }
-                    )
-                    .padding(.trailing,10)
-                    //Button Maths
-                    Button(
-                        action: {
-                            // do something
-                        },
-                        label: { ZStack {
-                            Rectangle()
-                                .frame(width: 140,height: 100)
-                                .foregroundColor(.blue)
-                                .cornerRadius(20)
-                                .overlay(
-                                    RoundedRectangle(cornerRadius: 20)
-                                        .stroke(.gray, lineWidth: 3))
-                            Text("CE2")
-                                .font(.custom("Ranchers-Regular", size: 70))
-                            .foregroundColor(.white)}
-                        }
-                    )
+                //Button CM1
+                VStack{
                     
-                }
-                //Button Histoire
-                Button(
-                    action: {
-                        // do something
-                    },
-                    label: { ZStack {
-                        Rectangle()
-                            .frame(width: 140,height: 100)
-                            .foregroundColor(.green)
-                            .cornerRadius(20)
-                            .overlay(
-                                RoundedRectangle(cornerRadius: 20)
-                                    .stroke(.gray, lineWidth: 3))
-                        Text("CP")
-                            .font(.custom("Ranchers-Regular", size: 70))
-                        .foregroundColor(.white)}
+                    ForEach(classes) { classe in
+                        Button(
+                            action: {
+                                // do something
+                            },
+                            label: { ZStack {
+                                Rectangle()
+                                    .frame(width: 120,height: 80)
+                                    .foregroundColor(classe.couleur)
+                                    .cornerRadius(20)
+                                    .overlay(
+                                        RoundedRectangle(cornerRadius: 20)
+                                            .stroke(.gray, lineWidth: 3))
+                                Text("\(classe.niveau)")
+                                    .font(.custom("Ranchers-Regular", size: 70))
+                                .foregroundColor(.white)}
+                            }
+                        )
+                        .padding(.trailing,10)
                     }
-                )
+ 
+                }
                 
             }
             .padding(.bottom, 100)

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		61759ED92C13031500B42653 /* frameClasse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61759ED82C13031500B42653 /* frameClasse.swift */; };
 		61759EDD2C13131A00B42653 /* jeuxCompteur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61759EDC2C13131A00B42653 /* jeuxCompteur.swift */; };
+		61A884CC2C2C0E1300070475 /* utilisateur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A884CB2C2C0E1300070475 /* utilisateur.swift */; };
+		61EA4BBE2C2DACAA00E3E24B /* Classe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EA4BBD2C2DACAA00E3E24B /* Classe.swift */; };
 		61EAE9112C0F33E700D7564E /* Ranchers-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61EAE9102C0F33E700D7564E /* Ranchers-Regular.ttf */; };
 		61EAE9132C10666200D7564E /* invasionQuiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EAE9122C10666200D7564E /* invasionQuiter.swift */; };
 		768D92752C0DF14400595B26 /* ludikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D92742C0DF14400595B26 /* ludikApp.swift */; };
@@ -41,6 +43,8 @@
 /* Begin PBXFileReference section */
 		61759ED82C13031500B42653 /* frameClasse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frameClasse.swift; sourceTree = "<group>"; };
 		61759EDC2C13131A00B42653 /* jeuxCompteur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jeuxCompteur.swift; sourceTree = "<group>"; };
+		61A884CB2C2C0E1300070475 /* utilisateur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utilisateur.swift; sourceTree = "<group>"; };
+		61EA4BBD2C2DACAA00E3E24B /* Classe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classe.swift; sourceTree = "<group>"; };
 		61EAE90F2C0F235D00D7564E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		61EAE9102C0F33E700D7564E /* Ranchers-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ranchers-Regular.ttf"; sourceTree = "<group>"; };
 		61EAE9122C10666200D7564E /* invasionQuiter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = invasionQuiter.swift; sourceTree = "<group>"; };
@@ -112,6 +116,8 @@
 				768D92782C0DF14400595B26 /* Item.swift */,
 				61759ED82C13031500B42653 /* frameClasse.swift */,
 				61759EDC2C13131A00B42653 /* jeuxCompteur.swift */,
+				61A884CB2C2C0E1300070475 /* utilisateur.swift */,
+				61EA4BBD2C2DACAA00E3E24B /* Classe.swift */,
 				768D927A2C0DF14400595B26 /* Assets.xcassets */,
 				61EAE9102C0F33E700D7564E /* Ranchers-Regular.ttf */,
 				768D927C2C0DF14400595B26 /* Preview Content */,
@@ -277,6 +283,8 @@
 			files = (
 				768D92772C0DF14400595B26 /* invasionCommencer.swift in Sources */,
 				768D92792C0DF14400595B26 /* Item.swift in Sources */,
+				61EA4BBE2C2DACAA00E3E24B /* Classe.swift in Sources */,
+				61A884CC2C2C0E1300070475 /* utilisateur.swift in Sources */,
 				61759EDD2C13131A00B42653 /* jeuxCompteur.swift in Sources */,
 				61759ED92C13031500B42653 /* frameClasse.swift in Sources */,
 				61EAE9132C10666200D7564E /* invasionQuiter.swift in Sources */,
