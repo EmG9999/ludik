@@ -32,6 +32,7 @@
 		E94DE4302C136AF500BA3C16 /* jeuEmiliano.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DE42F2C136AF500BA3C16 /* jeuEmiliano.swift */; };
 		E94DE4322C136C0300BA3C16 /* matierePatrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DE4312C136C0300BA3C16 /* matierePatrice.swift */; };
 		E94DE4342C136C7900BA3C16 /* jeuQuizzPatrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DE4332C136C7900BA3C16 /* jeuQuizzPatrice.swift */; };
+		E97B80B52C2EA161005A9F10 /* utilisateurSoso.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97B80B42C2EA161005A9F10 /* utilisateurSoso.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		E94DE42F2C136AF500BA3C16 /* jeuEmiliano.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jeuEmiliano.swift; sourceTree = "<group>"; };
 		E94DE4312C136C0300BA3C16 /* matierePatrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = matierePatrice.swift; sourceTree = "<group>"; };
 		E94DE4332C136C7900BA3C16 /* jeuQuizzPatrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jeuQuizzPatrice.swift; sourceTree = "<group>"; };
+		E97B80B42C2EA161005A9F10 /* utilisateurSoso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utilisateurSoso.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 		768D92682C0DF14400595B26 = {
 			isa = PBXGroup;
 			children = (
+				E97B80B42C2EA161005A9F10 /* utilisateurSoso.swift */,
 				768D92732C0DF14400595B26 /* ludik */,
 				768D92862C0DF14400595B26 /* ludikTests */,
 				768D92902C0DF14500595B26 /* ludikUITests */,
@@ -325,6 +328,7 @@
 				766428E42C136004008D3B84 /* ecranAcceuilMain.swift in Sources */,
 				766428E62C1360C8008D3B84 /* CreationdeCompte.swift in Sources */,
 				E94DE42E2C136A0800BA3C16 /* jeuCompteurDembo.swift in Sources */,
+				E97B80B52C2EA161005A9F10 /* utilisateurSoso.swift in Sources */,
 				E94DE4342C136C7900BA3C16 /* jeuQuizzPatrice.swift in Sources */,
 				766428E82C13613A008D3B84 /* JeuxMathAdder.swift in Sources */,
 				766428E02C135E7E008D3B84 /* connexionCompteMain.swift in Sources */,
