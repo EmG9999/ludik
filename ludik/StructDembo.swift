@@ -7,12 +7,17 @@
 
 import SwiftUI
 
-struct StructDembo: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+/**
+ Documentation de la structure Classe.
+ 
+ Cette structure représentente un identifiable de type Classe avec des focntionnalité spécifique
+ */
 
-#Preview {
-    StructDembo()
+struct Classe: Identifiable{
+    ///  UUID pour avoir un identifiant unique
+    var id = UUID()
+    /// Niveau de la classe
+    var niveau: String
+    ///La couleiur par niveau
+    var couleur: Color
 }
