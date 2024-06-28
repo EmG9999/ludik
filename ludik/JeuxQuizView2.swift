@@ -43,7 +43,7 @@ struct JeuxQuizView2: View {
         showCorrectAnswer = false
         gameStarted = true
     }
-    //  Cette fonction démarre un minuteur qui décrémente `timeRemaining` toutes les secondes jusqu'à ce que le temps soit écoulé. Une fois le minuteur terminé, il arrête le jeu en mettant `timerRunning` et `gameStarted` à `false`, et réinitialise l'index du mot actuel à 0    
+    /// Cette fonction démarre un minuteur qui décrémente `timeRemaining` toutes les secondes jusqu'à ce que le temps soit écoulé. Une fois le minuteur terminé, il arrête le jeu en mettant `timerRunning` et `gameStarted` à `false`, et réinitialise l'index du mot actuel à 0
     func startTimer() {
         timeRemaining = 30
         timerRunning = true
@@ -59,14 +59,14 @@ struct JeuxQuizView2: View {
             }
         }
     }
-    ///Cette fonction est appelée lorsque le joueur sélectionne une réponse. Si le jeu est en cours et que la réponse est correcte, elle incrémente le score. Elle affiche également la réponse correcte en mettant `showCorrectAnswer` à `true`.
+    /// Cette fonction est appelée lorsque le joueur sélectionne une réponse. Si le jeu est en cours et que la réponse est correcte, elle incrémente le score. Elle affiche également la réponse correcte en mettant `showCorrectAnswer` à `true`.
     func checkAnswer(_ index: Int) {
         if gameStarted && mots[currentIndex].rep[index] == mots[currentIndex].correct{
         words += 1
         }
         showCorrectAnswer = true
     }
-    ///Cette fonction est appelée lorsque l'alerte montrant la réponse correcte est fermée. Elle passe à la question suivante en incrémentant l'index du mot actuel, en s'assurant que l'index reste dans les limites du tableau `mots`, et en réinitialisant `showCorrectAnswer` à `false`.
+    /// Cette fonction est appelée lorsque l'alerte montrant la réponse correcte est fermée. Elle passe à la question suivante en incrémentant l'index du mot actuel, en s'assurant que l'index reste dans les limites du tableau `mots`, et en réinitialisant `showCorrectAnswer` à `false`.
     func nextQuestion() {
         currentIndex = (currentIndex + 1) % mots.count
         showCorrectAnswer = false
@@ -131,7 +131,7 @@ struct JeuxQuizView2: View {
                     .font(.custom("Ranchers-Regular", size: 40))
                     .foregroundColor(.white)
                 }
-                //Bouton "Commencer"
+                ///Bouton "Commencer"
                 Button(
                     action: {
                         commencerJeux()
